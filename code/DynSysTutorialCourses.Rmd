@@ -1,0 +1,112 @@
+Dynamical Systems Tutorial
+========================================================
+
+```{r setwd, echo=FALSE}
+mac <- "/Users/johnstevens/Dropbox/school/DeptResearch"
+pc <- "C:/Dropbox/school/DeptResearch"
+setwd(pc)
+
+```
+
+Prepping the Data
+--------------
+The first thing that needs to be done is get the data in the correct format, which means creating a lagged version of the variable we are interested in. The data that I am using is course enrollment data from 2000-2014.
+
+First read in the data and look at the first few lines:
+```{r readdata, echo=TRUE,message=FALSE, warning=FALSE}
+#Read in tab delimited text data with headers
+d01 <- read.delim("Query1.txt", header=TRUE, sep="\t")
+head(d01)
+```
+
+This shows every section of every course, we want to look at the change in total course enrollment over time so the data needs to be manipulated a bit. First we need to aggregate all the different sections of the same course. Then we need to create a lagged variable (the enrollment from one year prior t<sub> 0 </sub> and t<sub> +1 </sub>) which will help us understand the change in enrollment from year to year.
+
+```{r modifydata, echo=TRUE,message=FALSE, warning=FALSE}
+library(dplyr)
+library(DataCombine)
+
+# Create new dataframe with only the Year, Course Number and Total Enrollment
+d02 <- d01 %.%
+  group_by(CNum, Year, Semester) %.%
+  summarise(total = sum(CurrentEnroll)) %.%
+  arrange(desc(total))
+
+#Order the data by Course number and year
+attach(d02)
+d02 <- d02[order(CNum, Year),]
+
+#Create lagged variable for each course
+d02 <- slide(d02, Var="total", GroupVar="CNum", NewVar = "LagSem", slideBy=-1) # Semester to semester
+d02 <- slide(d02, Var="LagSem", GroupVar="CNum", NewVar = "LagYear", slideBy=-1) # Fall to Fall
+```
+
+Exploratory Analysis
+--------------
+Now we have a small data set (`d02`) with a lagged variable for every course. Now we can plot the total number of course enrollments by the lagged number of course enrollments. If a scatter plot is created with the course enrollments are plotted on the x-axis and lagged enrollments (number enrolled in the same class one year later) we get a graph that looks like this.
+
+
+```{r sp01, echo=TRUE,message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
+library(ggplot2)
+sp01 <- ggplot(d03, aes(total, LagSem))
+p1 <- sp01 + geom_point() + labs(title="Course Enrollment by Enrollment the Previous Semester")
+p1
+```
+
+If there is no change year over year the data points should line up on a perfect 45 degree line. We can add that 45 degree line and add a smoother line to see where the set points are. 
+
+```{r sp01.2, echo=TRUE,message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
+p1 + geom_abline(intercept=0, slope=1) + stat_smooth()
+```
+
+Another way to look at this is to create a difference score, which will rotate the graph so no change is a horizontal line.
+
+```{r sp02, echo=TRUE,message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
+d02$DiffScoreS <- d02$total-d02$LagSem 
+
+sp02 <- ggplot(d02, aes(total, DiffScoreS))
+p2 <- sp02 + geom_point() + labs(title="Course Enrollment by Difference 1 year later", x="Enrollment", y="Change in Enrollment") + geom_abline(intercept=0, slope=0) + stat_smooth()
+p2
+
+# Same thing for year to year change
+d02$DiffScoreY <- d02$total-d02$LagYear 
+
+sp03 <- ggplot(d02, aes(total, DiffScoreY))
+p3 <- sp03 + geom_point() + labs(title="Course Enrollment by Difference 1 year later", x="Enrollment", y="Change in Enrollment") + geom_abline(intercept=0, slope=0) + stat_smooth()
+p3
+
+
+```
+
+If the smoothed slope (the blue line) crosses the horizontal line it indicates that this is were there is no change from one year to the next, a set point. Set points come in two flavors when looking at a single variable like this, they are either "attractor" or "repellents". Attractors are stable points, and it is expected that values will converge to these set points over time. In other words the attractors are attractive and pull values close to them.
+
+Repellors are the opposite, they push things away, repelling values away over time.
+
+Telling which set points are attractors and which are repellors is pretty easy, attractors have a negative slope, and repellors have a positive slope. Looking at the difference plot above there seems to be an attractive set point (attractor) at the 400 mark, and a repulsive set point (repellor) at the 825 mark.
+
+With this data it is hard to see what is going on where there are a lot of points. In the data course 1010 is always highly enrolled and is skewing all of the rest of the data. Lets remove 1010 and re-run the analysis.
+
+```{r wo1010, echo=TRUE,message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
+d03 <- d02[which(d02$CNum != 1010),]
+sp04 <- ggplot(d03, aes(total, DiffScoreY))
+sp04 + geom_point() + labs(title="Course Enrollment by Difference 1 year later \n (without 1010)") + geom_abline(intercept=0, slope=0) + stat_smooth()
+
+```
+
+Now it looks like there is a repellor around an enrollment of 200. Looking closely at the blue line it appears to parallel the horizontal line for quite a while before crossing it. The slope of the line not only tells us if a set point is an attractor or repellor, but it also can tell us how strong the attraction/repulsion is. In this case is looks like the repellor is very weak until enrollment reaches 200, and then enrollment shoots off to higher numbers.
+
+The next step is to figure out exactly where these set points are and how strong they are.
+
+Regression Analysis
+---------------
+
+We can use basic polynomial regression to figure out exactly where the set points are and how strong they are. Based on the graphs above we can see 1 repellor at an enrollment of 200, an attractor at about 400, and another repellor at about 825. This line should be able to be fit witha polynomial function (X^3).
+
+In a regression analysis we could say that the year to year difference in enrollment is equal to an intercept (b0) plus enrollment raised to a power of three (X^3) plus a error term (e), or $$\Delta x = \beta_0 + \beta_1x^3 + e $$. 
+
+In regression if there is a polynomial (X^3) all lower order terms must also be included (X^2 , X). So our equation turns into $$\Delta x = \beta_0 + \beta_1x^3 + \beta_2x^2 + \beta_3x^3 + e $$.
+
+```{r reg01, echo=TRUE,message=FALSE, warning=FALSE}
+lm01 <- lm(DiffScoreS ~ poly(total, 3), data=d02)
+summary(lm01)
+```
+

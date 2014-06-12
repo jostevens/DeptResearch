@@ -1,0 +1,295 @@
+Department Report
+========================================================
+
+The purpose of this analysis was initially to look at how the addition of online courses has changed the enrollment at branch campuses. A number of other questions were also asked, almost all of which dealt with how to build a class schedule that maximized undergraduate enrollment. This paper will begin with showing some enrollment trends over the past decade and then attempt to address each of the questions that have been asked.
+
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+library(randomForest)
+library(ggplot2)
+library(dplyr)
+library(lme4)
+library(rpart)
+library(rpart.plot)
+library(knitr)
+d01 <- read.delim("Query1.txt", header=TRUE, sep="\t") # This data was queried from the access database in this directory
+
+options(digit=2)
+
+s1 <- c("spring", "fall")
+s2 <- c(1, 2)
+s3 <- data.frame(s1, s2)
+
+d01 <- merge(d01, s3, by.x="Semester", by.y="s1")
+d01$SYear <- d01$Year + d01$s2*0.1
+
+remove(s1)
+remove(s2)
+remove(s3)
+
+d10 <- d01[which(d01$SYear == 2014.1),]
+d01 <- d01[which(d01$SYear != 2014.1),]
+```
+
+
+## Enrollment Trends
+
+The data for this project covers the time from Spring 2000 to Fall 2013. Summer enrollment was not gathered. In the graph below we see that annual enrollment (calendar year) generally oscillates around 4000 students. The dramatic drop at the end is spring semester 2014.
+```{r Enrollment Trends Annual, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(Year) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+s <- ggplot(d02, aes(x=Year, y=total))
+s + geom_line(colour = "darkred", size=3) + labs(title = "Annual Enrollment")
+```
+
+In this time period the maximum enrollment was in `r d02[1,which(d02$total == max(d02$total))]` with an enrollment of `r max(d02[2])`. If we look by semester there is much more variation as shown in the graph below. The low point was the Spring semester of 2008 with a total enrollment of `r min(d02$total)`.
+
+```{r Enrollment Trends Semester, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(SYear) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+s <- ggplot(d02, aes(x=SYear, y=total))
+s + geom_line(colour = "darkred", size=3) + labs(title = "Enrollment by Semester")
+```
+
+Over the 14 years of data that are available a total of `r nrow(d01)` courses that have been offered and `r sum(d01$CurrentEnroll)` seats enrolled. There have been `r nrow(as.data.frame(unique(d01$CNum)))` unique course numbers. The courses themselves have a very different enrollment patterns and shown in the graph below that shows the difference between upper and lower division courses.
+
+```{r Enrollment Trends Division, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(SYear, LowerDiv) %.%
+  summarise(total = sum(CurrentEnroll))
+
+
+s <- ggplot(d02, aes(x=SYear, y=total, group=LowerDiv))
+s + geom_line(aes(colour = as.factor(LowerDiv)), size=3) + 
+  labs(title = "Enrollment Trends \n Upper and Lower Division",
+       colour = "Is Lower Division") + 
+ # theme(legend.position = "none") +
+  stat_smooth()
+```
+
+The large drop in enrollment in 2008 appears to corresponds to a decrease in upper division courses while the lower division courses remained relatively stable, as indicated by the trend line.
+
+As we move on to looking at variation in individual courses we can also start to look at branch campus information as with the graph below. The course numbers are arranged on the x-axis. The color adds the additional information of where the course is being held (section numbers). Sections that are red (less than 10) are course held at the main campus while values of 90 (blue) are online. The light red in the middle represent branch campuses.
+
+```{r CourseEnrollment1, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+s <- ggplot(d01, aes(x=CNum, y=CurrentEnroll, group=SNum))
+
+s + geom_point(aes(colour = SNum), alpha = .7) + 
+  scale_colour_gradient(low="red") + 
+  labs(title="Enrollment by Course Number", 
+       x= "Course Number", y="Enrollment",
+       colour = "Section / Location")
+```
+
+## Campuses
+
+Lower division courses have substantially higher enrollment than any other course. This is primarily driven by SOC 1010 and the highest enrollments occur at the main campus. The main campus generally has the highest enrollment for each course, with the exception of some of the online courses. The table below shows the total enrollment by location. What is notable is that online courses have the second highest number of students enrolled although they only started to be offered in 2006.
+
+```{r Branches, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5, results='asis'}
+#Create table showing mean enrollments by location
+d02 <- d01 %.%
+  group_by(Location) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+kable(d02, row.names=F, format='pandoc')
+```
+
+If we look at a box plot of the different campuses we see that online courses have a higher mean than any other location. As shown above the highest enrolling courses are lower division courses, and this has remained constant over time. It appears that the higher enrolling courses at Bountiful and Sandy were older, and the current courses have lower enrollment.
+
+```{r , echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+s <- ggplot(d01, aes(Location, CurrentEnroll))
+
+s + geom_boxplot(outlier.shape = NA) + 
+    geom_jitter(aes(colour = Year, size = as.factor(LowerDiv)), alpha=.3) +
+    scale_colour_gradient(low="red") + 
+    labs(title = "Enrollment by Course and Location",
+         size = "Lower Dvision")
+
+
+```
+
+The trend lines (in blue, below) show a decline in main campus enrollment prior to the introduction of online courses. The branch campuses appear to have remained fairly steady in their enrollment until the introduction of online courses. Online courses, since their inception, have grown quickly. The rate of growth appears to have leveled off in the past few years.
+
+```{r Branches1, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(SYear, Location) %.%
+  summarise(total = sum(CurrentEnroll))
+
+
+s <- ggplot(d02, aes(x=SYear, y=total, group=Location))
+s + geom_line(aes(colour = Location), size=1) + 
+  labs(title = "Enrollment Trends \n by Location") +
+  stat_smooth(aes(fill = Location), alpha = .03) + guides(fill=FALSE)  
+
+#Change the reference level so everything is compared to the main campus
+d02 <- within(d02, Location <- relevel(Location, ref = "murray"))
+lm1 <- lm(total ~ as.factor(Location) + as.factor(SYear), d02)
+```
+
+
+Testing the difference of the locations on enrollment, using dummy variables for both year and location, shows that there are significant differences in enrollment patterns for the Main and Online campuses. All other campuses do not show significant variation. 
+
+## Other Questions that have been asked
+
+#### If we offer more classes/sections are we competing for the same students?
+
+We can take a look at a modified version of the above graph showing enrollment over time and change the thickness of the line to show how many course are being offered. There doesn't appear to be much correlation between the number of courses offered and enrollment
+
+```{r competing courses, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+#Collapse data for total enrollment and number of offered classes each semester
+d02 <- d01 %.%
+  group_by(SYear) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) 
+
+ols1 <- lm(total ~ count, d02) # nothing significant
+
+#hlm <- lmer(total ~ count + (1|as.factor(SYear)), d02) # nothing significant
+
+
+d02 <- d01 %.%
+  group_by(SYear) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+s <- ggplot(d02, aes(x=SYear, y=total))
+s + geom_line(aes(size = count), colour = "darkred") + 
+    labs(title = "Enrollment over time", size = "Number of Courses")
+
+# Reformat data for Random Forest Analysis
+d02 <- d01 %.%
+  group_by(SYear, CNum) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countC = n(CNum),
+            LD = mean(LowerDiv))
+
+ols2 <- lm(total ~ countC + LD, d02)
+
+```
+
+A basic regression with total number of students as the D.V. and the number of courses as the I.V. doesn't have any significant effects, not does it fit the data very well with an r<sub>2</sub> value of `r summary(ols1)$r.squared `. Controlling for year doesn't seem to help either. 
+
+However, if we analyze the number of students in a course based on the number of sections that are offered, and control for the course being lower division (because SOC 1010 throws everything off) then we get a positive correlation and an r<sub>2</sub> of `r summary(ols2)$r.squared `
+
+```{r cc2, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(SYear, LowerDiv) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countC = n(CNum),
+            LD = mean(LowerDiv))
+
+s <- ggplot(d02, aes(x=SYear, y=total, group=LowerDiv))
+s + geom_line(aes(size = countC, colour = as.factor(LD))) + 
+    labs(title = "Enrollment over time", 
+         size = "Number of Courses",
+         colour = "Is Lower Division")
+
+d02 <- d01 %.%
+  group_by(SYear, CNum) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countS = n(CNum),
+            LD = mean(LowerDiv))
+
+
+ols3 <- lm(total ~ countS + LD, d02)
+
+```
+
+The results from a linear regression model suggest that increasing the number of sections of a course correlates with higher enrollment even when accounting for the difference between lower and upper division courses.
+
+### What Does Enrollment look like without branches
+
+```{r Branches2, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+d02 <- d01 %.%
+  group_by(SYear, Location) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countS = n(CNum))
+  
+s <- ggplot(d02, aes(x=SYear, weight = total, fill = Location))
+#s + geom_bar(binwidth = .2) + 
+#    scale_fill_brewer("Campus") + 
+#    labs(x= "Semester and Year",
+#        y= "Enrollment")
+
+d03 <- aggregate( total ~ Location, sum, data=d02)
+m <- d03[which(d03$Location == 'main'),2]
+o <- d03[which(d03$Location == 'online'),2]
+b <- sum(d03$total)- m - o
+
+d04 <- aggregate( total ~ Location, sum, data=d02[which(d02$SYear>=2010),])
+m2 <- d04[which(d04$Location == 'main'),2]
+o2 <- d04[which(d04$Location == 'online'),2]
+b2 <- sum(d04$total)- m2 - o2
+```
+
+There have been a total of `r m` students in the taking courses on the main campus since 2000. `r o` were online and the remaining `r b` were from the branches. If there were no courses offered at the branches and those students did not come up to campus or attend online there would be a decrease of `r b/sum(d03$total)*100`%.  However if we only look at the data since 2010 then the decrease is only `r b2/sum(d04$total)*100`%, or `r b2` students.
+
+### What Aspects of Courses or Schedules Generates Higher Enrollment?
+
+A number of questions asked deal directly with what factors generate higher enrollment. The best technique for this type of question (where there is no direct theory to test) is a Classification and Regression Tree (CART) data mining algorithm. This algorithm takes the available data and partitions it into similar clusters. If we throw all of the data into a cart model we get the following picture.
+
+```{r rpart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+cart01 <- rpart(CurrentEnroll ~ ., data=d01)
+rpart.plot(cart01)
+```
+
+The decision tree aspect of CART models allows for easy interpretation, each branch of the tree is a variable that has an impact on enrollment. The circles at the bottom of the tree are the average enrollments for courses following the path of the branches. So the highest enrolling courses are those with a course number less than 1018, with a section number less than 2.5 since 2006 that is held on Tuesdays and Thursdays with an average of 206 students.
+
+While this is a nice representation of the data we currently have it may not help much in predicting future course enrollments due to the over fitting of the model. A better choice is the random forest model. The random forest model takes random samples of the data set,runs the cart model on that sample and uses the results to predict the values in the rest of the data set. This process is repeated over and over again to eliminate the influence of any outliers and results in a robust predictive model. 
+
+```{r rf, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+names(d01) <- c("Semester", "Section.Number", "Day.of.Class", "Enroll", "Instructor.Status",
+                "Lower.Division", "Year", "Location", "Time.of.Day", "Number.of.Days", "Course.Number",
+                "Program.Area", "Credit.Hours", "Number.of.Attributes", "Crosslisted", "Required",
+                "Number.of.Sections", "Semester.Year")
+
+rf02 <- randomForest(Enroll ~ ., data=na.omit(d01), ntree=70, mtry=3) #  Other models were tried but this one has the best results
+```
+This model had a mean squared error of `r rf02$mse[length(rf02$mse)]` and explains `r round(rf02$mse[length(rf02$rsq)])*100`% of the variance after 70 iterations. The plot below indicates the variables that had the greatest importance. The five most important variables are course number, being lower division, the section number, days class is held, and the number of credit hours in a course. 
+
+```{r vimpPlot, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7, fig.h=5}
+varImpPlot(rf02)
+names(d10) <- c("Semester", "Section.Number", "Day.of.Class", "Enroll", "Instructor.Status",
+                "Lower.Division", "Year", "Location", "Time.of.Day", "Number.of.Days", "Course.Number",
+                "Program.Area", "Credit.Hours", "Number.of.Attributes", "Crosslisted", "Required",
+                "Number.of.Sections", "Semester.Year")
+
+#Use the model to predict
+d10$Predict <- predict(rf02, d10)
+pr <- round(sum(na.omit(d10$Predict)))
+ac  <- round(sum(d10$Enroll))
+```
+
+From this analysis the number of attributes a course has, or the specialization area don't have much influence in the course enrollment.
+
+We can use this model to predict the enrollment for next semester by feeding the model the Spring 2013 course schedule. The model predicted `r pr` students to be enrolled, while `r ac` actually enrolled, a difference of `r pr-ac` or `r round(((pr-ac)/ac)*100,2)`% over prediction. The actual amount of over prediction was a bit higher because the model could not predict the enrollment for several courses due to a lack of data. 
+
+Here is the course by course breakdown of Spring 2014 courses:
+
+### Spring 2014 Schedule
+```{r pred, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
+#d10 <- read.csv("newSchedule")
+d10 <- d10[with(d10, order(Course.Number)),]
+
+kable(d10[,c("Course.Number", "Section.Number", "Enroll", "Predict")], 
+      row.names=F, 
+      format='pandoc',
+      align = c("r","l","r","r"))
+```
+
+## Conclusion
+
+It appears that branch campuses have declined in enrollment since the advent of online courses. There also seems to be a decline in enrollment at the main campus as well. Online courses are the only campus that has seen an increase in enrollment over the past few years. In linear regression models the variation over time did not apper to be statistically significant. 
+
+From the CART models it appers that after accounting for the high enrollment in Soc 1010, the most important factors for high enrollment are location, either at the main campus or online.

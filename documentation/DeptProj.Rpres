@@ -1,0 +1,139 @@
+Soc Enrollment
+========================================================
+author: John Stevens
+date: 8 April 2014
+
+Why Look at Enrollment
+========================================================
+
+- The primary reason was to see if it was worth having classes at branch campuses
+
+
+What Questions Have Been Asked
+========================================================
+
+- If we offer more classes/sections are we competing for the same students?
+- What Does Enrollment look like without branches
+- What if we offered more afternoon classes
+- Why did enrollment drop in 2006
+- Are there too many classes
+- Does cross-listing increase enrollment
+- How do attributes affect enrollment
+- What about our classes that are required for other majors
+
+
+About the Data
+========================================================
+
+ - This data was scrapped from the web
+ - Comprises Course Lists from 2000-2014
+ - Combined with additional information in and Access .mdb
+ 
+```{r summary, echo=FALSE}
+library(dplyr)
+library(ggplot2)
+
+d01 <- read.delim("Query1.txt", header=TRUE, sep="\t") # This data was queried from the access database in this directory
+
+#d01$Attrib[is.na(d01$Attrib)] <- 0
+s1 <- c("spring", "fall")
+s2 <- c(1, 2)
+s3 <- data.frame(s1, s2)
+
+d01 <- merge(d01, s3, by.x="Semester", by.y="s1")
+d01$SYear <- d01$Year + d01$s2*0.1
+
+remove(s1)
+remove(s2)
+remove(s3)
+```
+ 
+ General Trends
+========================================================
+```{r sumgraph01, echo=FALSE}
+d02 <- d01 %.%
+  group_by(SYear) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+s <- ggplot(d02, aes(x=SYear, y=total))
+s + geom_line(aes(size = count)) + labs(title = "Enrollment over time", size = "Number of Courses")
+```
+********************
+- Large drop in enrollment in Spring 2008
+- High enrollment with or without lots of course offerings
+
+  General Trends
+========================================================
+
+```{r sumgraph02, echo=FALSE}
+d03 <- d01 %.%
+  group_by(SYear, LowerDiv) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(total))
+
+
+s <- ggplot(d03, aes(x=SYear, y=total, group=LowerDiv))
+s + geom_line(aes(size = count, colour = LowerDiv)) + labs(title = "Enrollment over time", size = "Number of Courses") + stat_smooth()
+```
+********************
+- While lower division class are individually highly enrolled, most enrollment comes from Upper division
+- Lower division enrollment has been mostly stable over the past decade, though seems to be dropping off
+- The lowest enrollment in lower division classes was in `r d03[which(d03$total==min(d03$total)),1]`
+
+
+ Data Summary
+========================================================
+```{r sumgraph03, echo=FALSE}
+d04 <- d01 %.%
+  group_by(CNum, SYear, LowerDiv) %.%
+  summarise(total = sum(CurrentEnroll),
+            day = mean(as.integer(Time2)),
+            sec = n(CNum)) %.%
+  arrange(desc(total))
+
+
+s <- ggplot(d04, aes(x=SYear, y=total))
+s + geom_point(aes(size = sec, alpha=.4, colour=LowerDiv)) + labs(title="Enrollment by Course",
+                                                             size="Number of Sections",
+                                                             colour= "Lower Division")
+```
+**************
+- Again, lower division courses enroll higher than upper division
+- In 2014 the highest enrolling upper division classes were
+```{r highUD, echo=FALSE}
+head(d04[which(d04$SYear==2014.1 & d04$LowerDiv==0),c(1,4)])
+
+```
+
+
+Random Forest
+========================================================
+```{r, echo=FALSE}
+library(rpart)
+library(rpart.plot)
+cart01 <- rpart(CurrentEnroll ~ ., data=d01)
+rpart.plot(cart01)
+```
+
+Random Forest
+========================================================
+
+```{r, echo=FALSE}
+library(randomForest)
+rf02 <- randomForest(CurrentEnroll ~ ., data=na.omit(d01), ntree=70, mtry=3) #  Other models were tried but this one has the best results
+varImpPlot(rf02)
+```
+*********************
+```{r}
+rf02
+```
+
+
+Now What
+======================
+- Scenarios
+- Genetic Algorithms
+- SEM Models

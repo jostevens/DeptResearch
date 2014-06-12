@@ -1,0 +1,1586 @@
+"SNum"	"Days"	"CurrentEnroll"	"Status"	"LowerDiv"	"Year"	"Semester"	"Location"	"Time2"	"Days2"	"CNum"	"Area"	"CredHours"	"NumAttributes"	"CrossList"	"Req"
+2	"M,W,F"	200	"?"	1	2000	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"M,W,F"	69	"A"	1	2000	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+10	"H"	57	"A"	1	2000	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	70	"?"	1	2000	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	57	"P"	1	2000	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+3	"T,H"	66	"P"	1	2000	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+1	"M,W,F"	60	"P"	0	2000	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+2	"M,W,F"	60	"P"	0	2000	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+3	"T,H"	53	"P"	0	2000	"spring"	"main"	"Afternoon"	2	3020	"None"	3	0	0	0
+1	"M,W,F"	52	"A"	0	2000	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	28	"P"	0	2000	"spring"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+10	"M"	23	"A"	0	2000	"spring"	"main"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	49	"?"	0	2000	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"M,W,F"	55	"P"	0	2000	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+1	"M,W,F"	32	"P"	0	2000	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	10	"P"	0	2000	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	22	"P"	0	2000	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"T"	35	"G"	0	2000	"spring"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+70	"H"	45	"A"	0	2000	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"T,H"	63	"P"	0	2000	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+2	"T,H"	20	"P"	0	2000	"spring"	"main"	"Afternoon"	2	3140	"None"	3	0	0	1
+20	"M"	16	"A"	0	2000	"spring"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	29	"P"	0	2000	"spring"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"M,W,F"	64	"A"	0	2000	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+20	"W"	28	"A"	0	2000	"spring"	"bountiful"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"M,W,F"	42	"P"	0	2000	"spring"	"main"	"Morning"	3	3341					
+1	"M,W,F"	95	"P"	0	2000	"spring"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"M,W,F"	22	"P"	0	2000	"spring"	"main"	"Morning"	3	3382					
+1	"T,H"	26	"P"	0	2000	"spring"	"main"	"Morning"	2	3422					
+20	"T"	8	"A"	0	2000	"spring"	"bountiful"	"Evening"	1	3431					
+1	"M,W,F"	9	"P"	0	2000	"spring"	"main"	"Morning"	3	3433	"Global"	3	0	0	0
+1	"M,W,F"	33	"A"	0	2000	"spring"	"main"	"Afternoon"	3	3438					
+70	"M"	40	"A"	0	2000	"spring"	"sandy"	"Evening"	1	3438					
+20	"H"	24	"A"	0	2000	"spring"	"bountiful"	"Evening"	1	3471					
+50	"S"	7	"A"	0	2000	"spring"	"park city"	"Morning"	1	3471					
+1	"T,H"	63	"P"	0	2000	"spring"	"main"	"Morning"	2	3472					
+1	"T,H"	56	"P"	0	2000	"spring"	"main"	"Morning"	2	3473					
+2	"T,H"	38	"P"	0	2000	"spring"	"main"	"Morning"	2	3473					
+1	"T,H"	4	"P"	0	2000	"spring"	"main"	"Morning"	2	3474					
+1	"H"	59	"A"	0	2000	"spring"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	55	"A"	0	2000	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+10	"H"	59	"A"	0	2000	"spring"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	101	"P"	0	2000	"spring"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+10	"H"	29	"A"	0	2000	"spring"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+70	"T"	47	"A"	0	2000	"spring"	"sandy"	"Evening"	1	3563	"Crim"	3	0	0	0
+10	"W"	58	"A"	0	2000	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"TBA"	12	"A"	0	2000	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2000	"spring"	"main"		2	3950					
+2	"TBA"	2	"P"	0	2000	"spring"	"main"		2	3950					
+5	"TBA"	1	"P"	0	2000	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2000	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2000	"spring"	"main"		2	3952					
+4	"TBA"	1	"A"	0	2000	"spring"	"main"		2	3952					
+5	"TBA"	2	"P"	0	2000	"spring"	"main"		2	3952					
+1	"M,W,F"	7	"P"	0	2000	"spring"	"main"	"Afternoon"	3	3965					
+2	"M,W,F"	192	"P"	1	2000	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"M,W,F"	61	"A"	1	2000	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+4	"T,H"	65	"A"	1	2000	"fall"	"main"	"Afternoon"	2	1010	"None"	4	0	0	1
+10	"M"	59	"A"	1	2000	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"T"	33	"A"	1	2000	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	45	"A"	1	2000	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	63	"A"	1	2000	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	56	"P"	1	2000	"fall"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+1	"T,H"	59	"P"	0	2000	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	51	"P"	0	2000	"fall"	"main"	"Afternoon"	2	3020	"None"	3	0	0	0
+10	"W"	27	"A"	0	2000	"fall"	"main"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	31	"P"	0	2000	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	41	"P"	0	2000	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+5	"T,H"	43	"P"	0	2000	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"W"	19	"A"	0	2000	"fall"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+20	"M"	12	"A"	0	2000	"fall"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+70	"H"	38	"A"	0	2000	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	11	"P"	0	2000	"fall"	"main"	"Afternoon"	3	3112	"None"	4	2	0	1
+2	"T,H"	53	"P"	0	2000	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+1	"M,W,F"	12	"P"	0	2000	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	46	"P"	0	2000	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+10	"W"	38	"A"	0	2000	"fall"	"main"	"Evening"	1	3140	"None"	3	0	0	1
+1	"T,H"	22	"P"	0	2000	"fall"	"main"	"Morning"	2	3334	"DV"	3	0	0	0
+1	"M,W,F"	40	"A"	0	2000	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	70	"P"	0	2000	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+10	"T"	35	"A"	0	2000	"fall"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"M,W,F"	10	"P"	0	2000	"fall"	"main"	"Morning"	3	3435	"Global"	3	0	0	0
+1	"M,W,F"	51	"A"	0	2000	"fall"	"main"	"Morning"	3	3437					
+1	"M,W,F"	62	"P"	0	2000	"fall"	"main"	"Morning"	3	3438					
+2	"T,H"	60	"A"	0	2000	"fall"	"main"	"Morning"	2	3438					
+20	"H"	21	"A"	0	2000	"fall"	"bountiful"	"Evening"	1	3438					
+1	"T,H"	60	"P"	0	2000	"fall"	"main"	"Morning"	2	3450					
+1	"T,H"	53	"P"	0	2000	"fall"	"main"	"Morning"	2	3471					
+2	"T,H"	58	"P"	0	2000	"fall"	"main"	"Morning"	2	3471					
+1	"T,H"	49	"P"	0	2000	"fall"	"main"	"Morning"	2	3473					
+10	"H"	26	"A"	0	2000	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+70	"H"	29	"A"	0	2000	"fall"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	98	"P"	0	2000	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+10	"H"	34	"G"	0	2000	"fall"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+70	"T"	42	"A"	0	2000	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	57	"P"	0	2000	"fall"	"main"	"Afternoon"	3	3562	"Crim"	3	0	0	0
+20	"H"	7	"A"	0	2000	"fall"	"bountiful"	"Evening"	1	3562	"Crim"	3	0	0	0
+1	"M,W,F"	30	"P"	0	2000	"fall"	"main"	"Afternoon"	3	3563	"Crim"	3	0	0	0
+1	"TBA"	9	"A"	0	2000	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2000	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2000	"fall"	"main"		2	3951					
+3	"TBA"	1	"P"	0	2000	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2000	"fall"	"main"		2	3952					
+1	"T"	66	"A"	0	2000	"fall"	"main"	"Evening"	1	3965					
+2	"M,W,F"	201	"G"	1	2001	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	61	"A"	1	2001	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"M"	57	"A"	1	2001	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+1	"T,H"	66	"P"	1	2001	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+70	"T"	29	"A"	1	2001	"spring"	"sandy"	"Evening"	1	1020	"None"	3	0	0	0
+1	"M,W,F"	62	"P"	0	2001	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+2	"M,W,F"	57	"P"	0	2001	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+70	"W"	32	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	35	"P"	0	2001	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+20	"T"	6	"A"	0	2001	"spring"	"bountiful"	"Evening"	1	3030	"None"	3	0	0	0
+70	"W"	19	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"T,H"	59	"P"	0	2001	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"T"	49	"A"	0	2001	"spring"	"main"	"Morning"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	17	"P"	0	2001	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	32	"P"	0	2001	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	35	"P"	0	2001	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"T"	32	"A"	0	2001	"spring"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+20	"W"	51	"A"	0	2001	"spring"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+70	"H"	39	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	15	"P"	0	2001	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	53	"P"	0	2001	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"M"	25	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	39	"P"	0	2001	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	41	"A"	0	2001	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	52	"P"	0	2001	"spring"	"main"	"Morning"	2	3341					
+70	"T"	48	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3365	"DV"	3	2	1	0
+70	"W"	29	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3380	"DV"	3	1	1	0
+10	"W"	16	"P"	0	2001	"spring"	"main"	"Evening"	1	3431					
+70	"M"	17	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3431					
+1	"T,H"	19	"P"	0	2001	"spring"	"main"	"Morning"	2	3433	"Global"	3	0	0	0
+1	"M,W,F"	38	"A"	0	2001	"spring"	"main"	"Morning"	3	3438					
+70	"H"	36	"A"	0	2001	"spring"	"sandy"	"Evening"	1	3438					
+1	"T,H"	51	"P"	0	2001	"spring"	"main"	"Morning"	2	3450					
+20	"H"	17	"A"	0	2001	"spring"	"bountiful"	"Evening"	1	3471					
+1	"T,H"	48	"P"	0	2001	"spring"	"main"	"Morning"	2	3472					
+1	"T,H"	45	"P"	0	2001	"spring"	"main"	"Morning"	2	3473					
+2	"T,H"	43	"P"	0	2001	"spring"	"main"	"Morning"	2	3473					
+1	"M,W,F"	5	"P"	0	2001	"spring"	"main"	"Morning"	3	3474					
+1	"T,H"	99	"P"	0	2001	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+20	"T"	20	"A"	0	2001	"spring"	"bountiful"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	40	"A"	0	2001	"spring"	"main"	"Afternoon"	2	3561	"Crim"	3	0	0	0
+10	"H"	58	"A"	0	2001	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"W"	49	"A"	0	2001	"spring"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2001	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2001	"spring"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2001	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2001	"spring"	"main"		2	3951					
+3	"TBA"	1	"A"	0	2001	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2001	"spring"	"main"		2	3952					
+1	"T,H"	6	"P"	0	2001	"spring"	"main"	"Afternoon"	2	3965					
+1	"TBA"	0	"P"	0	2001	"spring"	"main"		2	4999					
+2	"M,W,F"	181	"P"	1	2001	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	67	"A"	1	2001	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"T"	67	"P"	1	2001	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"H"	36	"A"	1	2001	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	48	"A"	1	2001	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"T,H"	56	"A"	1	2001	"fall"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+2	"M,W,F"	55	"P"	1	2001	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+1	"M,W,F"	56	"A"	0	2001	"fall"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+2	"T,H"	54	"A"	0	2001	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+10	"W"	38	"A"	0	2001	"fall"	"main"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	31	"P"	0	2001	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	32	"A"	0	2001	"fall"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+10	"H"	29	"A"	0	2001	"fall"	"main"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	46	"P"	0	2001	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	32	"P"	0	2001	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+3	"T,H"	24	"P"	0	2001	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+20	"W"	13	"A"	0	2001	"fall"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+70	"T"	30	"A"	0	2001	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	53	"P"	0	2001	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	33	"P"	0	2001	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"W"	24	"P"	0	2001	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+1	"T,H"	8	"P"	0	2001	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+2	"M,W,F"	45	"P"	0	2001	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+10	"W"	18	"P"	0	2001	"fall"	"main"	"Evening"	1	3140	"None"	3	0	0	1
+20	"T"	12	"A"	0	2001	"fall"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	35	"A"	0	2001	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	55	"A"	0	2001	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	70	"P"	0	2001	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+1	"M,W,F"	31	"P"	0	2001	"fall"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"T,H"	56	"A"	0	2001	"fall"	"main"	"Morning"	2	3438					
+10	"T"	50	"A"	0	2001	"fall"	"main"	"Evening"	1	3438					
+1	"M,W,F"	9	"A"	0	2001	"fall"	"main"	"Morning"	3	3443					
+1	"T,H"	54	"P"	0	2001	"fall"	"main"	"Morning"	2	3450					
+1	"M,W,F"	39	"P"	0	2001	"fall"	"main"	"Morning"	3	3471					
+2	"T,H"	42	"P"	0	2001	"fall"	"main"	"Morning"	2	3471					
+1	"M,W,F"	43	"P"	0	2001	"fall"	"main"	"Morning"	3	3473					
+2	"T,H"	42	"P"	0	2001	"fall"	"main"	"Morning"	2	3473					
+1	"M,W,F"	45	"P"	0	2001	"fall"	"main"	"Morning"	3	3560	"Crim"	3	0	0	0
+70	"H"	40	"A"	0	2001	"fall"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	74	"P"	0	2001	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+10	"T"	41	"A"	0	2001	"fall"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+70	"W"	25	"A"	0	2001	"fall"	"sandy"	"Morning"	1	3561	"Crim"	3	0	0	0
+1	"TBA"	5	"A"	0	2001	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2001	"fall"	"main"		2	3950					
+3	"TBA"	2	"P"	0	2001	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2001	"fall"	"main"		2	3952					
+10	"M"	48	"A"	0	2001	"fall"	"main"	"Evening"	1	3965					
+11	"H"	38	"A"	0	2001	"fall"	"main"	"Evening"	1	3965					
+1	"M"	2	"P"	0	2001	"fall"	"main"	"Afternoon"	1	5050					
+1	"W"	1	"P"	0	2001	"fall"	"main"	"Afternoon"	1	5110					
+1	"T,H"	1	"P"	0	2001	"fall"	"main"	"Afternoon"	2	5120					
+2	"M,W,F"	195	"P"	1	2002	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	63	"A"	1	2002	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"H"	56	"A"	1	2002	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"M"	34	"?"	1	2002	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"T"	37	"A"	1	2002	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	60	"P"	1	2002	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	57	"P"	1	2002	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+20	"W"	24	"A"	1	2002	"spring"	"bountiful"	"Evening"	1	1020	"None"	3	0	0	0
+70	"M"	21	"A"	1	2002	"spring"	"sandy"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	61	"P"	0	2002	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+70	"W"	32	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	36	"P"	0	2002	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	35	"P"	0	2002	"spring"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+70	"T"	21	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+2	"T,H"	56	"P"	0	2002	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+1	"M,W,F"	33	"P"	0	2002	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"M,W,F"	37	"P"	0	2002	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+3	"T,H"	28	"P"	0	2002	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"H"	42	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+2	"T,H"	32	"P"	0	2002	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+3	"M,W,F"	32	"P"	0	2002	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+10	"M"	22	"P"	0	2002	"spring"	"main"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	44	"A"	0	2002	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	48	"A"	0	2002	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+70	"W"	43	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3365	"DV"	3	2	1	0
+1	"T,H"	85	"A"	0	2002	"spring"	"main"	"Morning"	2	3380	"DV"	3	1	1	0
+20	"M"	27	"A"	0	2002	"spring"	"bountiful"	"Evening"	1	3380	"DV"	3	1	1	0
+10	"W"	29	"A"	0	2002	"spring"	"main"	"Evening"	1	3431					
+1	"M,W,F"	30	"P"	0	2002	"spring"	"main"	"Morning"	3	3433	"Global"	3	0	0	0
+1	"M,W,F"	45	"A"	0	2002	"spring"	"main"	"Morning"	3	3438					
+20	"H"	20	"A"	0	2002	"spring"	"bountiful"	"Evening"	1	3438					
+1	"T,H"	58	"P"	0	2002	"spring"	"main"	"Morning"	2	3450					
+20	"T"	17	"A"	0	2002	"spring"	"bountiful"	"Evening"	1	3471					
+1	"M,W,F"	44	"P"	0	2002	"spring"	"main"	"Morning"	3	3473					
+2	"M,W,F"	35	"P"	0	2002	"spring"	"main"	"Morning"	3	3473					
+1	"T,H"	81	"P"	0	2002	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+70	"T"	44	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	65	"P"	0	2002	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+2	"M,W,F"	37	"A"	0	2002	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+70	"W"	32	"A"	0	2002	"spring"	"sandy"	"Morning"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	66	"P"	0	2002	"spring"	"main"	"Afternoon"	2	3562	"Crim"	3	0	0	0
+20	"H"	16	"A"	0	2002	"spring"	"bountiful"	"Evening"	1	3562	"Crim"	3	0	0	0
+70	"H"	42	"A"	0	2002	"spring"	"sandy"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2002	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	1	"P"	0	2002	"spring"	"main"		2	3950					
+1	"TBA"	1	"P"	0	2002	"spring"	"main"		2	3951					
+5	"TBA"	1	"P"	0	2002	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2002	"spring"	"main"		2	3952					
+10	"M"	48	"A"	0	2002	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	0	"P"	0	2002	"spring"	"main"		2	4999					
+2	"M,W,F"	197	"A"	1	2002	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	66	"A"	1	2002	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"T"	75	"A"	1	2002	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"H"	34	"A"	1	2002	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	46	"A"	1	2002	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"T,H"	54	"P"	1	2002	"fall"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+2	"M,W,F"	61	"A"	1	2002	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	64	"P"	0	2002	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+10	"W"	50	"A"	0	2002	"fall"	"main"	"Evening"	1	3020	"None"	3	0	0	0
+2	"T,H"	51	"P"	0	2002	"fall"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+20	"W"	17	"A"	0	2002	"fall"	"bountiful"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	56	"A"	0	2002	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	53	"A"	0	2002	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"W"	54	"A"	0	2002	"fall"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	34	"P"	0	2002	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	47	"P"	0	2002	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+1	"T,H"	52	"P"	0	2002	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+2	"M,W,F"	23	"A"	0	2002	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+20	"T"	30	"A"	0	2002	"fall"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+1	"H"	19	"P"	0	2002	"fall"	"main"	"Afternoon"	1	3200	"DV"	4	1	0	0
+1	"M,W,F"	34	"A"	0	2002	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	56	"A"	0	2002	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	71	"P"	0	2002	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+1	"T,H"	55	"P"	0	2002	"fall"	"main"	"Morning"	2	3380	"DV"	3	1	1	0
+1	"T,H"	27	"P"	0	2002	"fall"	"main"	"Morning"	2	3433	"Global"	3	0	0	0
+1	"T,H"	22	"P"	0	2002	"fall"	"main"	"Afternoon"	2	3436	"Global"	3	0	0	0
+1	"M,W,F"	64	"A"	0	2002	"fall"	"main"	"Morning"	3	3438					
+1	"T,H"	65	"P"	0	2002	"fall"	"main"	"Morning"	2	3450					
+2	"T,H"	57	"P"	0	2002	"fall"	"main"	"Morning"	2	3471					
+2	"T,H"	55	"P"	0	2002	"fall"	"main"	"Morning"	2	3473					
+70	"H"	38	"A"	0	2002	"fall"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	59	"A"	0	2002	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	69	"P"	0	2002	"fall"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+70	"H"	38	"A"	0	2002	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	69	"P"	0	2002	"fall"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+1	"T,H"	56	"P"	0	2002	"fall"	"main"	"Afternoon"	2	3563	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2002	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2002	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2002	"fall"	"main"		2	3952					
+10	"T"	56	"A"	0	2002	"fall"	"main"	"Evening"	1	3965					
+1	"H"	1	"P"	0	2002	"fall"	"main"	"Afternoon"	1	5050					
+1	"T"	0	"P"	0	2002	"fall"	"main"	"Afternoon"	1	5110					
+1	"W"	0	"P"	0	2002	"fall"	"main"	"Afternoon"	1	5120					
+2	"M,W,F"	197	"A"	1	2003	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	64	"A"	1	2003	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"M"	55	"A"	1	2003	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+1	"T,H"	65	"P"	1	2003	"spring"	"main"	"Afternoon"	2	1020	"None"	3	0	0	0
+10	"H"	41	"A"	1	2003	"spring"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	57	"P"	0	2003	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	58	"P"	0	2003	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+20	"W"	23	"A"	0	2003	"spring"	"bountiful"	"Evening"	1	3020	"None"	3	0	0	0
+2	"T,H"	55	"P"	0	2003	"spring"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+70	"H"	35	"A"	0	2003	"spring"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	61	"A"	0	2003	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	49	"P"	0	2003	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+1	"M,W,F"	44	"P"	0	2003	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	40	"P"	0	2003	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	52	"P"	0	2003	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+20	"T"	36	"A"	0	2003	"spring"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	24	"A"	0	2003	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	41	"P"	0	2003	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"T"	31	"A"	0	2003	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	43	"A"	0	2003	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	40	"A"	0	2003	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+20	"H"	9	"A"	0	2003	"spring"	"bountiful"	"Evening"	1	3341					
+70	"W"	52	"A"	0	2003	"spring"	"sandy"	"Evening"	1	3365	"DV"	3	2	1	0
+10	"T"	55	"A"	0	2003	"spring"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"M,W,F"	48	"A"	0	2003	"spring"	"main"	"Morning"	3	3431					
+1	"T,H"	21	"P"	0	2003	"spring"	"main"	"Morning"	2	3433	"Global"	3	0	0	0
+1	"M,W,F"	56	"A"	0	2003	"spring"	"main"	"Morning"	3	3438					
+70	"H"	33	"A"	0	2003	"spring"	"sandy"	"Evening"	1	3438					
+1	"T,H"	56	"P"	0	2003	"spring"	"main"	"Morning"	2	3450					
+10	"W"	46	"A"	0	2003	"spring"	"main"	"Evening"	1	3471					
+1	"M,W,F"	50	"A"	0	2003	"spring"	"main"	"Morning"	3	3473					
+1	"T,H"	97	"P"	0	2003	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+1	"M,W,F"	60	"A"	0	2003	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	70	"P"	0	2003	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+20	"H"	38	"A"	0	2003	"spring"	"bountiful"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	65	"P"	0	2003	"spring"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+70	"T"	30	"A"	0	2003	"spring"	"sandy"	"Evening"	1	3562	"Crim"	3	0	0	0
+20	"T"	19	"A"	0	2003	"spring"	"bountiful"	"Evening"	1	3563	"Crim"	3	0	0	0
+10	"H"	56	"A"	0	2003	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"TBA"	20	"A"	0	2003	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2003	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2003	"spring"	"main"		2	3951					
+5	"TBA"	1	"P"	0	2003	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2003	"spring"	"main"		2	3952					
+10	"W"	40	"A"	0	2003	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	0	"P"	0	2003	"spring"	"main"		2	4999					
+2	"M,W,F"	193	"A"	1	2003	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	61	"A"	1	2003	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+4	"T,H"	40	"G"	1	2003	"fall"	"main"	"Afternoon"	2	1010	"None"	4	0	0	1
+20	"H"	35	"A"	1	2003	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"T"	45	"A"	1	2003	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	57	"A"	1	2003	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+10	"T"	47	"A"	1	2003	"fall"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	48	"P"	0	2003	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	57	"P"	0	2003	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+70	"W"	33	"A"	0	2003	"fall"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	39	"P"	0	2003	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	47	"A"	0	2003	"fall"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+1	"T,H"	63	"P"	0	2003	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"H"	55	"A"	0	2003	"fall"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+70	"T"	34	"A"	0	2003	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	37	"P"	0	2003	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	41	"P"	0	2003	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"W"	42	"A"	0	2003	"fall"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	47	"A"	0	2003	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+20	"W"	8	"A"	0	2003	"fall"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+1	"H"	10	"P"	0	2003	"fall"	"main"	"Afternoon"	1	3200	"DV"	4	1	0	0
+10	"M"	59	"A"	0	2003	"fall"	"main"	"Evening"	1	3334	"DV"	3	0	0	0
+1	"M,W,F"	33	"A"	0	2003	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	33	"A"	0	2003	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+70	"H"	32	"A"	0	2003	"fall"	"sandy"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"M,W,F"	68	"P"	0	2003	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+10	"W"	47	"A"	0	2003	"fall"	"main"	"Evening"	1	3431					
+1	"M,W,F"	37	"P"	0	2003	"fall"	"main"	"Morning"	3	3433	"Global"	3	0	0	0
+1	"M,W,F"	58	"A"	0	2003	"fall"	"main"	"Morning"	3	3438					
+20	"H"	23	"A"	0	2003	"fall"	"bountiful"	"Evening"	1	3438					
+1	"T,H"	64	"P"	0	2003	"fall"	"main"	"Morning"	2	3450					
+1	"M,W,F"	54	"P"	0	2003	"fall"	"main"	"Morning"	3	3471					
+1	"M,W,F"	61	"P"	0	2003	"fall"	"main"	"Morning"	3	3473					
+1	"M,W,F"	60	"P"	0	2003	"fall"	"main"	"Morning"	3	3560	"Crim"	3	0	0	0
+10	"T"	53	"A"	0	2003	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	66	"P"	0	2003	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+20	"T"	13	"A"	0	2003	"fall"	"bountiful"	"Evening"	1	3561	"Crim"	3	0	0	0
+70	"H"	38	"A"	0	2003	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	61	"P"	0	2003	"fall"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+1	"TBA"	16	"A"	0	2003	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2003	"fall"	"main"		2	3950					
+2	"TBA"	1	"P"	0	2003	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2003	"fall"	"main"		2	3952					
+10	"W"	55	"A"	0	2003	"fall"	"main"	"Evening"	1	3965					
+1	"H"	0	"A?"	0	2003	"fall"	"main"	"Afternoon"	1	5050					
+1	"W"	0	"P"	0	2003	"fall"	"main"	"Afternoon"	1	5115					
+1	"M,W,F"	270	"G"	1	2004	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	197	"A"	1	2004	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	63	"A"	1	2004	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"M"	66	"G"	1	2004	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+70	"T"	29	"A"	1	2004	"spring"	"sandy"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	50	"P"	0	2004	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	61	"P"	0	2004	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+1	"M,W,F"	56	"P"	0	2004	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+10	"W"	48	"A"	0	2004	"spring"	"main"	"Evening"	1	3030	"None"	3	0	0	0
+1	"T,H"	62	"P"	0	2004	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"H"	37	"A"	0	2004	"spring"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	24	"P"	0	2004	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"M,W,F"	42	"P"	0	2004	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+3	"T,H"	26	"P"	0	2004	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+4	"T,H"	32	"P"	0	2004	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+1	"M,W,F"	49	"A"	0	2004	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	47	"A?"	0	2004	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"W"	41	"A"	0	2004	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"H"	32	"P"	0	2004	"spring"	"main"	"Afternoon"	1	3200	"DV"	4	1	0	0
+1	"M,W,F"	37	"A"	0	2004	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	41	"A"	0	2004	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	49	"P"	0	2004	"spring"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+10	"T"	54	"P"	0	2004	"spring"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"M,W,F"	62	"A"	0	2004	"spring"	"main"	"Morning"	3	3431					
+1	"M,W,F"	34	"P"	0	2004	"spring"	"main"	"Morning"	3	3433	"Global"	3	0	0	0
+1	"T,H"	21	"P"	0	2004	"spring"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+1	"M,W,F"	58	"A"	0	2004	"spring"	"main"	"Morning"	3	3438					
+70	"M"	38	"A"	0	2004	"spring"	"sandy"	"Evening"	1	3438					
+1	"T,H"	67	"P"	0	2004	"spring"	"main"	"Morning"	2	3450					
+10	"T"	36	"A"	0	2004	"spring"	"main"	"Evening"	1	3471					
+1	"T,H"	69	"P"	0	2004	"spring"	"main"	"Morning"	2	3473					
+70	"H"	38	"A"	0	2004	"spring"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	59	"P"	0	2004	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+10	"H"	56	"A"	0	2004	"spring"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	100	"P"	0	2004	"spring"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+20	"T"	19	"A"	0	2004	"spring"	"bountiful"	"Evening"	1	3563	"Crim"	3	0	0	0
+10	"H"	44	"A"	0	2004	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"M,W,F"	68	"P"	0	2004	"spring"	"main"	"Morning"	3	3565	"Crim"	3	0	1	0
+1	"TBA"	22	"A"	0	2004	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2004	"spring"	"main"		2	3950					
+1	"TBA"	1	"P"	0	2004	"spring"	"main"		2	3951					
+1	"TBA"	1	"P"	0	2004	"spring"	"main"		2	3952					
+10	"W"	48	"A"	0	2004	"spring"	"main"	"Evening"	1	3965					
+1	"T,H"	0	"P"	0	2004	"spring"	"main"	"Morning"	2	5965					
+1	"M,W,F"	233	"P"	1	2004	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	194	"A"	1	2004	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	58	"A"	1	2004	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"T"	61	"G"	1	2004	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"H"	24	"A"	1	2004	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	42	"A"	1	2004	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	56	"A"	1	2004	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	52	"P"	1	2004	"fall"	"main"	"Afternoon"	2	1020	"None"	3	0	0	0
+10	"T"	26	"A"	1	2004	"fall"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	48	"P"	0	2004	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	48	"P"	0	2004	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+20	"W"	19	"A"	0	2004	"fall"	"bountiful"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	34	"A"	0	2004	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"M,W,F"	29	"A?"	0	2004	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+20	"T"	13	"A"	0	2004	"fall"	"bountiful"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	61	"P"	0	2004	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	32	"A"	0	2004	"fall"	"main"	"Afternoon"	2	3111	"None"	3	0	0	1
+20	"H"	11	"A"	0	2004	"fall"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+70	"T"	26	"A"	0	2004	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	40	"P"	0	2004	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	57	"P"	0	2004	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"M,W,F"	43	"P"	0	2004	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+1	"M,W,F"	54	"A?"	0	2004	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	46	"P"	0	2004	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"W"	37	"P"	0	2004	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	36	"A"	0	2004	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	33	"A"	0	2004	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	39	"P"	0	2004	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+70	"T"	41	"A"	0	2004	"fall"	"sandy"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"T,H"	28	"P"	0	2004	"fall"	"main"	"Morning"	2	3436	"Global"	3	0	0	0
+1	"M,W,F"	55	"A"	0	2004	"fall"	"main"	"Morning"	3	3438					
+2	"T,H"	50	"A"	0	2004	"fall"	"main"	"Morning"	2	3438					
+1	"T,H"	51	"P"	0	2004	"fall"	"main"	"Morning"	2	3450					
+1	"M,W,F"	55	"P"	0	2004	"fall"	"main"	"Morning"	3	3471					
+10	"H"	65	"A"	0	2004	"fall"	"main"	"Evening"	1	3473					
+1	"T,H"	83	"P"	0	2004	"fall"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+10	"H"	60	"A"	0	2004	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+2	"T,H"	65	"P"	0	2004	"fall"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+70	"H"	46	"A"	0	2004	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+2	"T,H"	68	"P"	0	2004	"fall"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+10	"W"	40	"A"	0	2004	"fall"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"T,H"	57	"P"	0	2004	"fall"	"main"	"Afternoon"	2	3565	"Crim"	3	0	1	0
+1	"TBA"	12	"A"	0	2004	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	1	"P"	0	2004	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2004	"fall"	"main"		2	3952					
+10	"W"	40	"A"	0	2004	"fall"	"main"	"Evening"	1	3965					
+1	"H"	1	"P"	0	2004	"fall"	"main"	"Afternoon"	1	5050					
+1	"M,W,F"	256	"G"	1	2005	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	183	"A"	1	2005	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	60	"A"	1	2005	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+4	"M,W,F"	36	"A"	1	2005	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+10	"H"	53	"G"	1	2005	"spring"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"H"	30	"A"	1	2005	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"M"	39	"A"	1	2005	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	38	"G"	1	2005	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	64	"A"	1	2005	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+20	"T"	13	"A"	1	2005	"spring"	"bountiful"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	31	"P"	0	2005	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	58	"P"	0	2005	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+70	"W"	32	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	57	"G"	0	2005	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	38	"A"	0	2005	"spring"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+70	"T"	19	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	51	"P"	0	2005	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	58	"P"	0	2005	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"H"	40	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	29	"P"	0	2005	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	48	"P"	0	2005	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"M,W,F"	48	"P"	0	2005	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+20	"W"	33	"G"	0	2005	"spring"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	48	"A?"	0	2005	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	46	"P"	0	2005	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"T"	36	"P"	0	2005	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"H"	22	"P"	0	2005	"spring"	"main"	"Afternoon"	1	3200	"DV"	4	1	0	0
+1	"T,H"	35	"P"	0	2005	"spring"	"main"	"Morning"	2	3334	"DV"	3	0	0	0
+1	"M,W,F"	57	"A"	0	2005	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+20	"M"	37	"A"	0	2005	"spring"	"bountiful"	"Evening"	1	3337	"DV"	3	2	1	0
+10	"W"	54	"A"	0	2005	"spring"	"main"	"Evening"	1	3365	"DV"	3	2	1	0
+1	"T,H"	58	"P"	0	2005	"spring"	"main"	"Afternoon"	2	3380	"DV"	3	1	1	0
+1	"M,W,F"	53	"A"	0	2005	"spring"	"main"	"Morning"	3	3438					
+70	"M"	40	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3438					
+1	"T,H"	54	"P"	0	2005	"spring"	"main"	"Morning"	2	3450					
+1	"M,W,F"	33	"P"	0	2005	"spring"	"main"	"Morning"	3	3471					
+1	"T"	62	"A"	0	2005	"spring"	"main"	"Evening"	1	3473					
+70	"H"	35	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	55	"P"	0	2005	"spring"	"main"	"Afternoon"	2	3561	"Crim"	3	0	0	0
+10	"H"	58	"A"	0	2005	"spring"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+10	"T"	53	"A"	0	2005	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+70	"W"	35	"A"	0	2005	"spring"	"sandy"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2005	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2005	"spring"	"main"		2	3950					
+2	"TBA"	2	"P"	0	2005	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2005	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2005	"spring"	"main"		2	3952					
+10	"W"	38	"A"	0	2005	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	1	"P"	0	2005	"spring"	"main"		2	4877					
+1	"M,W,F"	229	"P"	1	2005	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	165	"A"	1	2005	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	57	"A"	1	2005	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"W"	59	"G"	1	2005	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+20	"H"	26	"A"	1	2005	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"T"	39	"A"	1	2005	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	38	"G"	1	2005	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	54	"A"	1	2005	"fall"	"main"	"Afternoon"	2	1020	"None"	3	0	0	0
+1	"T,H"	28	"A"	0	2005	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+2	"T,H"	57	"A"	0	2005	"fall"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+20	"W"	22	"A"	0	2005	"fall"	"bountiful"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	30	"G"	0	2005	"fall"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	47	"A"	0	2005	"fall"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+70	"W"	35	"P"	0	2005	"fall"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	58	"P"	0	2005	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	43	"P"	0	2005	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"M"	38	"A"	0	2005	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	38	"P"	0	2005	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	42	"P"	0	2005	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	40	"P"	0	2005	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	35	"G"	0	2005	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	53	"A"	0	2005	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"M,W,F"	43	"A"	0	2005	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+1	"M,W,F"	21	"A"	0	2005	"fall"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"M,W,F"	49	"A"	0	2005	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"M,W,F"	58	"P"	0	2005	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	70	"P"	0	2005	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+20	"T"	26	"A"	0	2005	"fall"	"bountiful"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"T,H"	37	"P"	0	2005	"fall"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+1	"M,W,F"	36	"P"	0	2005	"fall"	"main"	"Morning"	3	3438					
+2	"T,H"	47	"A"	0	2005	"fall"	"main"	"Morning"	2	3438					
+70	"M"	36	"A"	0	2005	"fall"	"sandy"	"Evening"	1	3438					
+1	"T,H"	57	"P"	0	2005	"fall"	"main"	"Morning"	2	3471					
+20	"H"	11	"A"	0	2005	"fall"	"bountiful"	"Evening"	1	3471					
+1	"T,H"	50	"P"	0	2005	"fall"	"main"	"Morning"	2	3473					
+10	"M"	37	"A"	0	2005	"fall"	"main"	"Evening"	1	3473					
+10	"M"	52	"A"	0	2005	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+70	"H"	43	"A"	0	2005	"fall"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	70	"P"	0	2005	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+70	"H"	38	"A"	0	2005	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+10	"T"	65	"A"	0	2005	"fall"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"T"	34	"A"	0	2005	"fall"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"M,W,F"	53	"P"	0	2005	"fall"	"main"	"Morning"	3	3565	"Crim"	3	0	1	0
+1	"TBA"	12	"A"	0	2005	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	2	"P"	0	2005	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2005	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2005	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2005	"fall"	"main"		2	3952					
+1	"T,H"	7	"P"	0	2005	"fall"	"main"	"Afternoon"	2	3965					
+10	"W"	46	"A"	0	2005	"fall"	"main"	"Evening"	1	3965					
+1	"W"	0	"P"	0	2005	"fall"	"main"	"Afternoon"	1	5050					
+1	"H"	0	"P"	0	2005	"fall"	"main"	"Afternoon"	1	5720					
+1	"T,H"	0	"P"	0	2005	"fall"	"main"	"Afternoon"	2	5965					
+1	"M,W,F"	219	"P"	1	2006	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	137	"A"	1	2006	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	64	"A"	1	2006	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+70	"M"	38	"G"	1	2006	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"M,W,F"	33	"A"	1	2006	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	36	"G"	1	2006	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+1	"T,H"	39	"A"	0	2006	"spring"	"main"	"Morning"	2	3020	"None"	3	0	0	0
+70	"W"	38	"A"	0	2006	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	55	"A"	0	2006	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	48	"G"	0	2006	"spring"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+20	"T"	15	"A"	0	2006	"spring"	"bountiful"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	32	"A"	0	2006	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	27	"P"	0	2006	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"T"	45	"A"	0	2006	"spring"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+20	"M"	17	"A"	0	2006	"spring"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	30	"G"	0	2006	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	36	"P"	0	2006	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	28	"P"	0	2006	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"H"	41	"A"	0	2006	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	25	"A"	0	2006	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	64	"A"	0	2006	"spring"	"main"	"Afternoon"	2	3140	"None"	3	0	0	1
+10	"M"	49	"P"	0	2006	"spring"	"main"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	37	"A"	0	2006	"spring"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"M,W,F"	54	"P"	0	2006	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+20	"W"	18	"A"	0	2006	"spring"	"bountiful"	"Evening"	1	3337	"DV"	3	2	1	0
+70	"T"	43	"A"	0	2006	"spring"	"sandy"	"Evening"	1	3365	"DV"	3	2	1	0
+1	"T,H"	26	"P"	0	2006	"spring"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+1	"M,W,F"	41	"A"	0	2006	"spring"	"main"	"Morning"	3	3438					
+70	"M"	37	"A"	0	2006	"spring"	"sandy"	"Evening"	1	3438					
+1	"T,H"	31	"P"	0	2006	"spring"	"main"	"Morning"	2	3450					
+1	"T,H"	53	"P"	0	2006	"spring"	"main"	"Morning"	2	3471					
+10	"M"	35	"A"	0	2006	"spring"	"main"	"Evening"	1	3471					
+1	"T,H"	38	"P"	0	2006	"spring"	"main"	"Afternoon"	2	3473					
+2	"T,H"	54	"P"	0	2006	"spring"	"main"	"Morning"	2	3473					
+1	"T,H"	60	"P"	0	2006	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+10	"H"	44	"A"	0	2006	"spring"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	65	"P"	0	2006	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+10	"T"	60	"A"	0	2006	"spring"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	47	"P"	0	2006	"spring"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+70	"H"	41	"A"	0	2006	"spring"	"sandy"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"H"	48	"A"	0	2006	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"TBA"	18	"A"	0	2006	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"TBA"	0	"P"	0	2006	"spring"	"main"		2	3950					
+1	"TBA"	1	"P"	0	2006	"spring"	"main"		2	3951					
+2	"TBA"	1	"P"	0	2006	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2006	"spring"	"main"		2	3952					
+2	"TBA"	4	"P"	0	2006	"spring"	"main"		2	3952					
+10	"W"	48	"A"	0	2006	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	0	"P"	0	2006	"spring"	"main"		2	4877					
+2	"TBA"	2	"P"	0	2006	"spring"	"main"		2	4877					
+1	"T,H"	0	"P"	0	2006	"spring"	"main"	"Afternoon"	2	5965					
+1	"M,W,F"	178	"P"	1	2006	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	159	"A"	1	2006	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	66	"A"	1	2006	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"H"	27	"A"	1	2006	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"T"	40	"G"	1	2006	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+1	"TBA"	20	"P"	1	2006	"fall"	"main"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	35	"P"	1	2006	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	38	"G"	1	2006	"fall"	"main"	"Afternoon"	2	1020	"None"	3	0	0	0
+1	"M,W,F"	45	"A"	0	2006	"fall"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+10	"W"	31	"A"	0	2006	"fall"	"main"	"Evening"	1	3020	"None"	3	0	0	0
+1	"T,H"	53	"G"	0	2006	"fall"	"main"	"Morning"	2	3030	"None"	3	0	0	0
+70	"W"	26	"A"	0	2006	"fall"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	32	"A"	0	2006	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	48	"P"	0	2006	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"T"	34	"A"	0	2006	"fall"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	13	"P"	0	2006	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	20	"P"	0	2006	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"T,H"	22	"P"	0	2006	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	62	"A"	0	2006	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	47	"P"	0	2006	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+20	"T"	13	"A"	0	2006	"fall"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+70	"H"	42	"A"	0	2006	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	40	"P"	0	2006	"fall"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"M,W,F"	51	"A"	0	2006	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"T,H"	61	"P"	0	2006	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+1	"T,H"	53	"P"	0	2006	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+20	"W"	28	"A"	0	2006	"fall"	"bountiful"	"Evening"	1	3365	"DV"	3	2	1	0
+70	"T"	43	"A"	0	2006	"fall"	"sandy"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"T,H"	20	"P"	0	2006	"fall"	"main"	"Morning"	2	3385					
+1	"TBA"	0	"P"	0	2006	"fall"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	16	"P"	0	2006	"fall"	"main"	"Morning"	2	3433	"Global"	3	0	0	0
+1	"M,W,F"	25	"P"	0	2006	"fall"	"main"	"Morning"	3	3435	"Global"	3	0	0	0
+1	"M,W,F"	48	"G"	0	2006	"fall"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+10	"T"	60	"A"	0	2006	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	72	"P"	0	2006	"fall"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+70	"H"	43	"A"	0	2006	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	63	"P"	0	2006	"fall"	"main"	"Afternoon"	2	3562	"Crim"	3	0	0	0
+70	"W"	47	"A"	0	2006	"fall"	"sandy"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"TBA"	10	"A"	0	2006	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"M,W,F"	31	"A"	0	2006	"fall"	"main"	"Morning"	3	3638	"Pop"	3	0	1	0
+20	"M"	31	"A"	0	2006	"fall"	"bountiful"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"T,H"	37	"P"	0	2006	"fall"	"main"	"Morning"	2	3650	"Pop"	3	3	0	0
+1	"M,W,F"	32	"P"	0	2006	"fall"	"main"	"Morning"	3	3673	"Pop"	3	2	0	0
+10	"M"	36	"A"	0	2006	"fall"	"main"	"Evening"	1	3673	"Pop"	3	2	0	0
+1	"TBA"	1	"P"	0	2006	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2006	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2006	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2006	"fall"	"main"		2	3952					
+10	"W"	40	"A"	0	2006	"fall"	"main"	"Evening"	1	3965					
+1	"TBA"	1	"P"	0	2006	"fall"	"main"		2	4999					
+1	"T,H"	0	"P"	0	2006	"fall"	"main"	"Afternoon"	2	5120					
+1	"W"	3	"P"	0	2006	"fall"	"main"	"Afternoon"	1	5720					
+1	"M,W,F"	146	"A"	1	2007	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	132	"A"	1	2007	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	96	"A"	1	2007	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+70	"H"	40	"G"	1	2007	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	19	"P"	1	2007	"spring"	"online"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	53	"G"	1	2007	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+1	"M,W,F"	47	"A"	0	2007	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+70	"W"	34	"A"	0	2007	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	38	"A"	0	2007	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+2	"T,H"	28	"G"	0	2007	"spring"	"main"	"Afternoon"	2	3030	"None"	3	0	0	0
+20	"M"	9	"A"	0	2007	"spring"	"bountiful"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	15	"A"	0	2007	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	27	"P"	0	2007	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"T"	34	"A"	0	2007	"spring"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+1	"T,H"	30	"P"	0	2007	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+2	"T,H"	21	"P"	0	2007	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+3	"M,W,F"	27	"P"	0	2007	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+20	"H"	13	"A"	0	2007	"spring"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+70	"T"	37	"A"	0	2007	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	35	"P"	0	2007	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	62	"A"	0	2007	"spring"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+1	"M,W,F"	16	"P"	0	2007	"spring"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"T,H"	60	"P"	0	2007	"spring"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+2	"M,W,F"	60	"A"	0	2007	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+70	"W"	36	"A"	0	2007	"spring"	"sandy"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"T,H"	48	"P"	0	2007	"spring"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+20	"W"	27	"A"	0	2007	"spring"	"bountiful"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"TBA"	6	"P"	0	2007	"spring"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	7	"P"	0	2007	"spring"	"main"	"Afternoon"	2	3433	"Global"	3	0	0	0
+1	"M,W,F"	29	"G"	0	2007	"spring"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+20	"T"	17	"A"	0	2007	"spring"	"bountiful"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	63	"P"	0	2007	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+10	"H"	54	"A"	0	2007	"spring"	"main"	"Evening"	1	3561	"Crim"	3	0	0	0
+20	"T"	9	"A"	0	2007	"spring"	"bountiful"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	70	"P"	0	2007	"spring"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+1	"T,H"	78	"P"	0	2007	"spring"	"main"	"Afternoon"	2	3563	"Crim"	3	0	0	0
+70	"M"	35	"A"	0	2007	"spring"	"sandy"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2007	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+1	"M,W,F"	36	"A"	0	2007	"spring"	"main"	"Morning"	3	3638	"Pop"	3	0	1	0
+10	"M"	41	"A"	0	2007	"spring"	"main"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"M,W,F"	28	"P"	0	2007	"spring"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+1	"M,W,F"	15	"P"	0	2007	"spring"	"main"	"Morning"	3	3671	"Pop"	3	0	1	0
+70	"M"	23	"A"	0	2007	"spring"	"sandy"	"Evening"	1	3671	"Pop"	3	0	1	0
+1	"M,W,F"	42	"P"	0	2007	"spring"	"main"	"Morning"	3	3673	"Pop"	3	2	0	0
+1	"TBA"	0	"P"	0	2007	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2007	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2007	"spring"	"main"		2	3952					
+10	"W"	49	"A"	0	2007	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	0	"P"	0	2007	"spring"	"main"		2	4877					
+1	"TBA"	1	"P"	0	2007	"spring"	"main"		2	4999					
+1	"T,H"	0	"A"	0	2007	"spring"	"main"	"Afternoon"	2	5965					
+1	"M,W,F"	159	"A"	1	2007	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	117	"A"	1	2007	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	88	"A"	1	2007	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+4	"T,H"	100	"G"	1	2007	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"H"	19	"A"	1	2007	"fall"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	33	"A"	1	2007	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	43	"P"	1	2007	"fall"	"online"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	59	"G"	1	2007	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	52	"P"	1	2007	"fall"	"main"	"Afternoon"	2	1020	"None"	3	0	0	0
+1	"M,W,F"	59	"A"	0	2007	"fall"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+20	"W"	7	"A"	0	2007	"fall"	"bountiful"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	18	"G"	0	2007	"fall"	"main"	"Afternoon"	3	3030	"None"	3	0	0	0
+70	"H"	35	"A"	0	2007	"fall"	"sandy"	"Evening"	1	3030	"None"	3	0	0	0
+1	"M,W,F"	24	"A"	0	2007	"fall"	"main"	"Afternoon"	3	3040					
+1	"M,W,F"	16	"A"	0	2007	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	53	"P"	0	2007	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"T"	27	"A"	0	2007	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	29	"G"	0	2007	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"M,W,F"	14	"P"	0	2007	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+3	"T,H"	35	"P"	0	2007	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	48	"A"	0	2007	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+2	"T,H"	43	"P"	0	2007	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+10	"T"	67	"A"	0	2007	"fall"	"main"	"Evening"	1	3140	"None"	3	0	0	1
+1	"T,H"	29	"P"	0	2007	"fall"	"main"	"Morning"	2	3334	"DV"	3	0	0	0
+1	"M,W,F"	44	"A"	0	2007	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	48	"P"	0	2007	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+1	"M,W,F"	39	"A"	0	2007	"fall"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"T,H"	13	"P"	0	2007	"fall"	"main"	"Morning"	2	3385					
+1	"TBA"	5	"P"	0	2007	"fall"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	82	"P"	0	2007	"fall"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+20	"T"	11	"A"	0	2007	"fall"	"bountiful"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	57	"P"	0	2007	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	51	"G"	0	2007	"fall"	"main"	"Afternoon"	2	3561	"Crim"	3	0	0	0
+70	"H"	29	"A"	0	2007	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+70	"T"	14	"A"	0	2007	"fall"	"sandy"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"M"	40	"A"	0	2007	"fall"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+1	"M,W,F"	53	"P"	0	2007	"fall"	"main"	"Afternoon"	3	3565	"Crim"	3	0	1	0
+10	"W"	26	"A"	0	2007	"fall"	"main"	"Evening"	1	3567	"Crim"	3	0	0	0
+1	"TBA"	18	"A"	0	2007	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"T,H"	35	"A"	0	2007	"fall"	"main"	"Morning"	2	3638	"Pop"	3	0	1	0
+70	"W"	22	"A"	0	2007	"fall"	"sandy"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"T,H"	54	"P"	0	2007	"fall"	"main"	"Afternoon"	2	3650	"Pop"	3	3	0	0
+1	"T,H"	25	"P"	0	2007	"fall"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+10	"T"	41	"A"	0	2007	"fall"	"main"	"Evening"	1	3673	"Pop"	3	2	0	0
+1	"T,H"	14	"P"	0	2007	"fall"	"main"	"Morning"	2	3741	"Global"	3	1	0	0
+1	"T,H"	8	"P"	0	2007	"fall"	"main"	"Morning"	2	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2007	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2007	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2007	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2007	"fall"	"main"		2	3952					
+1	"S"	9	"P"	0	2007	"fall"	"main"	"Morning"	1	3965					
+1	"TBA"	0	"P"	0	2007	"fall"	"main"		2	4999					
+1	"M,W"	0	"P"	0	2007	"fall"	"main"	"Afternoon"	2	5120					
+1	"M,W,F"	125	"A"	1	2008	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	93	"A"	1	2008	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+3	"T,H"	109	"G"	1	2008	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+70	"H"	35	"A"	1	2008	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	38	"G"	1	2008	"spring"	"online"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	27	"G"	1	2008	"spring"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+2	"T,H"	65	"P"	1	2008	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+1	"M,W,F"	32	"G"	0	2008	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+70	"W"	19	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	32	"A"	0	2008	"spring"	"main"	"Morning"	3	3030	"None"	3	0	0	0
+10	"T"	22	"G"	0	2008	"spring"	"main"	"Evening"	1	3030	"None"	3	0	0	0
+10	"M"	41	"A"	0	2008	"spring"	"main"	"Evening"	1	3040					
+1	"M,W,F"	47	"P"	0	2008	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	38	"P"	0	2008	"spring"	"main"	"Afternoon"	2	3111	"None"	3	0	0	1
+20	"M"	20	"A"	0	2008	"spring"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	14	"P"	0	2008	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"M,W,F"	7	"P"	0	2008	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+3	"T,H"	35	"P"	0	2008	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	35	"G"	0	2008	"spring"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+1	"T,H"	26	"P"	0	2008	"spring"	"main"	"Afternoon"	2	3140	"None"	3	0	0	1
+20	"W"	12	"A"	0	2008	"spring"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+70	"T"	36	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	7	"A"	0	2008	"spring"	"main"	"Morning"	3	3334	"DV"	3	0	0	0
+1	"M,W,F"	56	"G"	0	2008	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+2	"T,H"	61	"P"	0	2008	"spring"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+70	"M"	38	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"T,H"	66	"P"	0	2008	"spring"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+1	"M,W,F"	31	"A"	0	2008	"spring"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	15	"P"	0	2008	"spring"	"main"	"Afternoon"	2	3435	"Global"	3	0	0	0
+1	"M,W,F"	31	"G"	0	2008	"spring"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+1	"T,H"	37	"A"	0	2008	"spring"	"main"	"Afternoon"	2	3560	"Crim"	3	0	0	0
+10	"H"	56	"A"	0	2008	"spring"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	51	"P"	0	2008	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	39	"G"	0	2008	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+20	"T"	9	"A"	0	2008	"spring"	"bountiful"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"M,W,F"	47	"P"	0	2008	"spring"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+70	"M"	18	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3564	"Crim"	3	0	0	0
+10	"W"	33	"A"	0	2008	"spring"	"main"	"Evening"	1	3567	"Crim"	3	0	0	0
+1	"TBA"	12	"A"	0	2008	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+20	"H"	15	"A"	0	2008	"spring"	"bountiful"	"Evening"	1	3638	"Pop"	3	0	1	0
+70	"W"	22	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"M,W,F"	35	"P"	0	2008	"spring"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+1	"T,H"	20	"P"	0	2008	"spring"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+70	"M"	11	"A"	0	2008	"spring"	"sandy"	"Evening"	1	3671	"Pop"	3	0	1	0
+1	"T,H"	60	"P"	0	2008	"spring"	"main"	"Morning"	2	3673	"Pop"	3	2	0	0
+1	"T,H"	49	"P"	0	2008	"spring"	"main"	"Morning"	2	3741	"Global"	3	1	0	0
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	3952					
+3	"TBA"	2	"A"	0	2008	"spring"	"main"		2	3952					
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	4877					
+1	"TBA"	0	"P"	0	2008	"spring"	"main"		2	4999					
+1	"M,W,F"	136	"A"	1	2008	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"M,W,F"	95	"A"	1	2008	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+3	"T,H"	66	"A"	1	2008	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+4	"T,H"	202	"A"	1	2008	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+10	"M"	63	"G"	1	2008	"fall"	"main"	"Evening"	1	1010	"None"	4	0	0	1
+70	"M"	27	"A"	1	2008	"fall"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	72	"G"	1	2008	"fall"	"online"		2	1015	"None"	2	0	0	1
+1	"T,H"	58	"G"	1	2008	"fall"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+1	"M,W,F"	20	"G"	0	2008	"fall"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+1	"T,H"	18	"G"	0	2008	"fall"	"main"	"Afternoon"	2	3030	"None"	3	0	0	0
+1	"M,W,F"	49	"A"	0	2008	"fall"	"main"	"Morning"	3	3040					
+1	"M,W,F"	16	"A"	0	2008	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	57	"A"	0	2008	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+20	"W"	10	"A"	0	2008	"fall"	"bountiful"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	27	"G"	0	2008	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	22	"P"	0	2008	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"W"	47	"P"	0	2008	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+70	"H"	24	"G"	0	2008	"fall"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	30	"A"	0	2008	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+2	"T,H"	72	"A"	0	2008	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+20	"H"	9	"A"	0	2008	"fall"	"bountiful"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	77	"A"	0	2008	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	56	"P"	0	2008	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+1	"M,W,F"	19	"A"	0	2008	"fall"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+70	"T"	29	"A"	0	2008	"fall"	"sandy"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"TBA"	6	"G"	0	2008	"fall"	"main"		2	3393	"DV"	3	0	0	0
+20	"M"	9	"G"	0	2008	"fall"	"bountiful"	"Evening"	1	3433	"Global"	3	0	0	0
+1	"T,H"	23	"G"	0	2008	"fall"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+1	"M,W,F"	28	"G"	0	2008	"fall"	"main"	"Afternoon"	3	3436	"Global"	3	0	0	0
+1	"T"	17	"P"	0	2008	"fall"	"main"	"Evening"	1	3439	"Global"	3	0	0	0
+10	"H"	43	"A"	0	2008	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	32	"A"	0	2008	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	67	"A"	0	2008	"fall"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+20	"T"	8	"A"	0	2008	"fall"	"bountiful"	"Evening"	1	3561	"Crim"	3	0	0	0
+1	"T,H"	60	"P"	0	2008	"fall"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+10	"H"	27	"A"	0	2008	"fall"	"main"	"Evening"	1	3563	"Crim"	3	0	0	0
+10	"W"	42	"A"	0	2008	"fall"	"main"	"Evening"	1	3567	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2008	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"T,H"	56	"G"	0	2008	"fall"	"main"	"Morning"	2	3638	"Pop"	3	0	1	0
+10	"T"	27	"A"	0	2008	"fall"	"main"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"T,H"	77	"P"	0	2008	"fall"	"main"	"Afternoon"	2	3650	"Pop"	3	3	0	0
+1	"M,W,F"	13	"P"	0	2008	"fall"	"main"	"Morning"	3	3671	"Pop"	3	0	1	0
+70	"W"	19	"A"	0	2008	"fall"	"sandy"	"Evening"	1	3671	"Pop"	3	0	1	0
+1	"M,W,F"	47	"G"	0	2008	"fall"	"main"	"Morning"	3	3673	"Pop"	3	2	0	0
+1	"M,W,F"	32	"P"	0	2008	"fall"	"main"	"Morning"	3	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2008	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2008	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2008	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2008	"fall"	"main"		2	3952					
+1	"TBA"	0	"P"	0	2008	"fall"	"main"		2	4999					
+1	"T,H"	1	"P"	0	2008	"fall"	"main"	"Afternoon"	2	5120					
+1	"W"	0	"P"	0	2008	"fall"	"main"	"Afternoon"	1	5965					
+1	"M,W,F"	137	"G"	1	2009	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	245	"A"	1	2009	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"H"	30	"A"	1	2009	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	73	"G"	1	2009	"spring"	"online"		2	1015	"None"	2	0	0	1
+1	"T,H"	67	"G"	1	2009	"spring"	"main"	"Morning"	2	1020	"None"	3	0	0	0
+10	"W"	37	"G"	1	2009	"spring"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+1	"M,W,F"	40	"G"	0	2009	"spring"	"main"	"Morning"	3	3020	"None"	3	0	0	0
+10	"T"	48	"A"	0	2009	"spring"	"main"	"Evening"	1	3040					
+1	"T,H"	56	"A"	0	2009	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"M"	37	"A"	0	2009	"spring"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	13	"P"	0	2009	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	51	"P"	0	2009	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	29	"P"	0	2009	"spring"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+20	"M"	6	"G"	0	2009	"spring"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+1	"M,W,F"	48	"P"	0	2009	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+70	"T"	39	"A"	0	2009	"spring"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+1	"M,W,F"	98	"P"	0	2009	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+20	"T"	18	"A"	0	2009	"spring"	"bountiful"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"M,W,F"	41	"G"	0	2009	"spring"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+90	"TBA"	130	"A"	0	2009	"spring"	"online"		2	3365	"DV"	3	2	1	0
+10	"M"	28	"A"	0	2009	"spring"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"TBA"	6	"G"	0	2009	"spring"	"main"		2	3393	"DV"	3	0	0	0
+70	"W"	14	"P"	0	2009	"spring"	"sandy"	"Evening"	1	3435	"Global"	3	0	0	0
+1	"M,W,F"	30	"G"	0	2009	"spring"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+1	"T,H"	43	"G"	0	2009	"spring"	"main"	"Morning"	2	3446	"Global"	3	0	0	0
+1	"T,H"	59	"P"	0	2009	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+70	"H"	21	"A"	0	2009	"spring"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	44	"G"	0	2009	"spring"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+2	"T,H"	29	"A"	0	2009	"spring"	"main"	"Afternoon"	2	3561	"Crim"	3	0	0	0
+10	"T"	38	"A"	0	2009	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"H"	19	"A"	0	2009	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"T,H"	81	"P"	0	2009	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+10	"W"	25	"A"	0	2009	"spring"	"main"	"Evening"	1	3567	"Crim"	3	0	0	0
+1	"TBA"	14	"A"	0	2009	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+90	"TBA"	94	"G"	0	2009	"spring"	"online"		2	3638	"Pop"	3	0	1	0
+1	"T,H"	50	"P"	0	2009	"spring"	"main"	"Afternoon"	2	3650	"Pop"	3	3	0	0
+20	"W"	7	"A"	0	2009	"spring"	"bountiful"	"Evening"	1	3671	"Pop"	3	0	1	0
+1	"T,H"	64	"G"	0	2009	"spring"	"main"	"Morning"	2	3673	"Pop"	3	2	0	0
+1	"M,W,F"	43	"P"	0	2009	"spring"	"main"	"Morning"	3	3741	"Global"	3	1	0	0
+1	"TBA"	0	"P"	0	2009	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2009	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2009	"spring"	"main"		2	3952					
+2	"TBA"	6	"P"	0	2009	"spring"	"main"		2	3952					
+4	"TBA"	1	"G"	0	2009	"spring"	"main"		2	3952					
+1	"T,H"	39	"A"	0	2009	"spring"	"main"	"Morning"	2	3965					
+2	"T,H"	13	"A"	0	2009	"spring"	"main"	"Morning"	2	3965					
+1	"TBA"	0	"P"	0	2009	"spring"	"main"		2	4877					
+2	"TBA"	1	"P"	0	2009	"spring"	"main"		2	4877					
+1	"TBA"	0	"P"	0	2009	"spring"	"main"		2	4999					
+1	"T,H"	2	"A"	0	2009	"spring"	"main"	"Morning"	2	5965					
+2	"T,H"	0	"A"	0	2009	"spring"	"main"	"Morning"	2	5965					
+1	"T,H"	231	"A"	1	2009	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+2	"T,H"	152	"P"	1	2009	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+3	"M,W,F"	57	"A"	1	2009	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+90	"TBA"	120	"A"	1	2009	"fall"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	86	"G"	1	2009	"fall"	"online"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	60	"G"	1	2009	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+70	"M"	15	"G"	0	2009	"fall"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"M,W,F"	31	"A"	0	2009	"fall"	"main"	"Morning"	3	3042	"None"	3	0	0	0
+1	"T,H"	55	"P"	0	2009	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+10	"W"	22	"P"	0	2009	"fall"	"main"	"Evening"	1	3111	"None"	3	0	0	1
+70	"W"	14	"A"	0	2009	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+1	"M,W,F"	13	"G"	0	2009	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	15	"P"	0	2009	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"W"	52	"G"	0	2009	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	55	"G"	0	2009	"fall"	"online"		2	3112	"None"	4	2	0	1
+1	"T,H"	41	"P"	0	2009	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+2	"T,H"	29	"A"	0	2009	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+90	"TBA"	49	"A"	0	2009	"fall"	"online"		2	3140	"None"	3	0	0	1
+1	"T,H"	126	"P"	0	2009	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+20	"W"	15	"A"	0	2009	"fall"	"bountiful"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"M,W,F"	2	"A"	0	2009	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+2	"T,H"	34	"G"	0	2009	"fall"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+90	"TBA"	67	"A"	0	2009	"fall"	"online"		2	3365	"DV"	3	2	1	0
+90	"TBA"	55	"A"	0	2009	"fall"	"online"		2	3380	"DV"	3	1	1	0
+1	"T,H"	88	"P"	0	2009	"fall"	"main"	"Morning"	2	3381	"DV"	3	1	0	0
+1	"TBA"	6	"G"	0	2009	"fall"	"main"		2	3393	"DV"	3	0	0	0
+1	"M,W,F"	18	"G"	0	2009	"fall"	"main"	"Morning"	3	3435	"Global"	3	0	0	0
+70	"T"	26	"G"	0	2009	"fall"	"sandy"	"Evening"	1	3436	"Global"	3	0	0	0
+1	"M,W,F"	46	"A"	0	2009	"fall"	"main"	"Morning"	3	3440	"Global"	3	0	0	0
+1	"M,W,F"	18	"G"	0	2009	"fall"	"main"	"Morning"	3	3446	"Global"	3	0	0	0
+90	"TBA"	31	"G"	0	2009	"fall"	"online"		2	3480	"Global"	3	1	1	0
+1	"M,W,F"	10	"P"	0	2009	"fall"	"main"	"Morning"	3	3485	"Global"	3	1	0	0
+1	"T,H"	35	"G"	0	2009	"fall"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+10	"H"	20	"A"	0	2009	"fall"	"main"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"M,W,F"	52	"P"	0	2009	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+70	"W"	20	"A"	0	2009	"fall"	"sandy"	"Evening"	1	3561	"Crim"	3	0	0	0
+90	"TBA"	61	"P"	0	2009	"fall"	"online"		2	3561	"Crim"	3	0	0	0
+1	"T,H"	28	"A"	0	2009	"fall"	"main"	"Morning"	2	3562	"Crim"	3	0	0	0
+1	"M,W,F"	18	"P"	0	2009	"fall"	"main"	"Afternoon"	3	3563	"Crim"	3	0	0	0
+10	"W"	17	"A"	0	2009	"fall"	"main"	"Evening"	1	3567	"Crim"	3	0	0	0
+1	"M"	19	"A"	0	2009	"fall"	"main"	"Evening"	1	3568	"Crim"	3	0	0	0
+1	"M,W,F"	31	"A"	0	2009	"fall"	"main"	"Morning"	3	3569	"Crim"	3	0	0	0
+1	"TBA"	13	"A"	0	2009	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"T,H"	35	"P"	0	2009	"fall"	"main"	"Morning"	2	3638	"Pop"	3	0	1	0
+90	"TBA"	41	"G"	0	2009	"fall"	"online"		2	3638	"Pop"	3	0	1	0
+1	"M,W,F"	54	"P"	0	2009	"fall"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+90	"TBA"	33	"P"	0	2009	"fall"	"online"		2	3671	"Pop"	3	0	1	0
+1	"M,W,F"	43	"P"	0	2009	"fall"	"main"	"Morning"	3	3673	"Pop"	3	2	0	0
+1	"TBA"	0	"P"	0	2009	"fall"	"main"		2	3877					
+5	"TBA"	1	"P"	0	2009	"fall"	"main"		2	3877					
+6	"TBA"	1	"P"	0	2009	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2009	"fall"	"main"		2	3950					
+2	"TBA"	1	"P"	0	2009	"fall"	"main"		2	3950					
+3	"TBA"	1	"P"	0	2009	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2009	"fall"	"main"		2	3951					
+1	"TBA"	1	"P"	0	2009	"fall"	"main"		2	3952					
+1	"TBA"	0	"P"	0	2009	"fall"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2009	"fall"	"main"		2	4999					
+1	"T,H"	2	"P"	0	2009	"fall"	"main"	"Morning"	2	5120					
+1	"M,W,F"	135	"P"	1	2010	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	161	"P"	1	2010	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"T"	14	"A"	1	2010	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	18	"G"	1	2010	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	132	"A"	1	2010	"spring"	"online"		2	1010	"None"	4	0	0	1
+1	"M,W"	19	"G"	1	2010	"spring"	"main"	"Morning"	2	1015	"None"	2	0	0	1
+90	"TBA"	56	"G"	1	2010	"spring"	"online"		2	1015	"None"	2	0	0	1
+10	"H"	14	"G"	1	2010	"spring"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+90	"TBA"	42	"A"	1	2010	"spring"	"online"		2	1020	"None"	3	0	0	0
+1	"T,H"	86	"P"	0	2010	"spring"	"main"	"Morning"	2	3041	"None"	3	0	0	0
+1	"T,H"	49	"A"	0	2010	"spring"	"main"	"Afternoon"	2	3042	"None"	3	0	0	0
+1	"T,H"	17	"A"	0	2010	"spring"	"main"	"Morning"	2	3051	"None"	3	1	0	0
+1	"T,H"	46	"A"	0	2010	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+90	"TBA"	52	"P"	0	2010	"spring"	"online"		2	3111	"None"	3	0	0	1
+1	"M,W,F"	15	"P"	0	2010	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	30	"P"	0	2010	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"T"	21	"G"	0	2010	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	61	"G"	0	2010	"spring"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	35	"P"	0	2010	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+90	"TBA"	75	"A"	0	2010	"spring"	"online"		2	3140	"None"	3	0	0	1
+1	"M,W,F"	102	"P"	0	2010	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	26	"G"	0	2010	"spring"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+90	"TBA"	63	"A"	0	2010	"spring"	"online"		2	3365	"DV"	3	2	1	0
+10	"W"	31	"A"	0	2010	"spring"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"TBA"	7	"G"	0	2010	"spring"	"main"		2	3393	"DV"	3	0	0	0
+10	"H"	34	"G"	0	2010	"spring"	"main"	"Evening"	1	3436	"Global"	3	0	0	0
+1	"M,W,F"	47	"A"	0	2010	"spring"	"main"	"Morning"	3	3440	"Global"	3	0	0	0
+70	"M"	18	"A"	0	2010	"spring"	"sandy"	"Evening"	1	3440	"Global"	3	0	0	0
+1	"M,W,F"	11	"G"	0	2010	"spring"	"main"	"Morning"	3	3446	"Global"	3	0	0	0
+1	"M,W,F"	46	"G"	0	2010	"spring"	"main"	"Morning"	3	3560	"Crim"	3	0	0	0
+70	"H"	9	"A"	0	2010	"spring"	"sandy"	"Evening"	1	3560	"Crim"	3	0	0	0
+1	"T,H"	50	"A"	0	2010	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+90	"TBA"	86	"P"	0	2010	"spring"	"online"		2	3561	"Crim"	3	0	0	0
+10	"T"	20	"A"	0	2010	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+10	"H"	17	"A"	0	2010	"spring"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+1	"T,H"	68	"P"	0	2010	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+10	"M"	40	"A"	0	2010	"spring"	"main"	"Evening"	1	3566	"Crim"	3	0	0	0
+1	"M,W,F"	23	"A"	0	2010	"spring"	"main"	"Morning"	3	3569	"Crim"	3	0	0	0
+1	"TBA"	13	"A"	0	2010	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+90	"TBA"	55	"G"	0	2010	"spring"	"online"		2	3638	"Pop"	3	0	1	0
+10	"T"	60	"G"	0	2010	"spring"	"main"	"Evening"	1	3650	"Pop"	3	3	0	0
+90	"TBA"	94	"P"	0	2010	"spring"	"online"		2	3673	"Pop"	3	2	0	0
+1	"M,W,F"	42	"P"	0	2010	"spring"	"main"	"Morning"	3	3741	"Global"	3	1	0	0
+1	"TBA"	1	"P"	0	2010	"spring"	"main"		2	3950					
+5	"TBA"	1	"P"	0	2010	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2010	"spring"	"main"		2	3951					
+3	"TBA"	1	"P"	0	2010	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2010	"spring"	"main"		2	3952					
+2	"TBA"	8	"P"	0	2010	"spring"	"main"		2	3952					
+4	"TBA"	1	"G"	0	2010	"spring"	"main"		2	3952					
+1	"TBA"	4	"P"	0	2010	"spring"	"main"		2	4693					
+2	"TBA"	1	"G"	0	2010	"spring"	"main"		2	4693					
+3	"TBA"	1	"P"	0	2010	"spring"	"main"		2	4693					
+1	"TBA"	1	"P"	0	2010	"spring"	"main"		2	4877					
+2	"TBA"	0	"P"	0	2010	"spring"	"main"		2	4877					
+1	"TBA"	0	"P"	0	2010	"spring"	"main"		2	4999					
+1	"TBA"	1	"A"	0	2010	"spring"	"main"		2	5965					
+1	"T,H"	303	"P"	1	2010	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+2	"M,W,F"	178	"P"	1	2010	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+90	"TBA"	135	"A"	1	2010	"fall"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	64	"G"	1	2010	"fall"	"online"		2	1015	"None"	2	0	0	1
+1	"M,W,F"	33	"G"	1	2010	"fall"	"main"	"Morning"	3	1020	"None"	3	0	0	0
+90	"TBA"	50	"A"	0	2010	"fall"	"online"		2	3020	"None"	3	0	0	0
+1	"T,H"	43	"P"	0	2010	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+90	"TBA"	46	"P"	0	2010	"fall"	"online"		2	3111	"None"	3	0	0	1
+1	"M,W,F"	17	"P"	0	2010	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	34	"P"	0	2010	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"W"	32	"G"	0	2010	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	51	"G"	0	2010	"fall"	"online"		2	3112	"None"	4	2	0	1
+1	"T,H"	51	"A"	0	2010	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"T"	11	"A"	0	2010	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+90	"TBA"	54	"A"	0	2010	"fall"	"online"		2	3140	"None"	3	0	0	1
+1	"M,W,F"	72	"A"	0	2010	"fall"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	15	"G"	0	2010	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+70	"M"	19	"A"	0	2010	"fall"	"sandy"	"Evening"	1	3365	"DV"	3	2	1	0
+90	"TBA"	48	"A"	0	2010	"fall"	"online"		2	3380	"DV"	3	1	1	0
+1	"T,H"	60	"P"	0	2010	"fall"	"main"	"Morning"	2	3381	"DV"	3	1	0	0
+1	"TBA"	7	"G"	0	2010	"fall"	"main"		2	3393	"DV"	3	0	0	0
+90	"TBA"	86	"G"	0	2010	"fall"	"online"		2	3436	"Global"	3	0	0	0
+1	"M,W,F"	49	"A"	0	2010	"fall"	"main"	"Morning"	3	3440	"Global"	3	0	0	0
+90	"TBA"	15	"G"	0	2010	"fall"	"online"		2	3480	"Global"	3	1	1	0
+1	"T,H"	22	"P"	0	2010	"fall"	"main"	"Morning"	2	3485	"Global"	3	1	0	0
+1	"T,H"	63	"P"	0	2010	"fall"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+1	"M,W,F"	47	"P"	0	2010	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+90	"TBA"	64	"G"	0	2010	"fall"	"online"		2	3561	"Crim"	3	0	0	0
+90	"TBA"	52	"A"	0	2010	"fall"	"online"		2	3562	"Crim"	3	0	0	0
+90	"TBA"	75	"P"	0	2010	"fall"	"online"		2	3563	"Crim"	3	0	0	0
+1	"M,W,F"	23	"A"	0	2010	"fall"	"main"	"Morning"	3	3567	"Crim"	3	0	0	0
+90	"TBA"	33	"A"	0	2010	"fall"	"online"		2	3568	"Crim"	3	0	0	0
+10	"W"	31	"A"	0	2010	"fall"	"main"	"Evening"	1	3569	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2010	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+70	"H"	21	"G"	0	2010	"fall"	"sandy"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"M,W,F"	55	"P"	0	2010	"fall"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+10	"M"	17	"G"	0	2010	"fall"	"main"	"Evening"	1	3653	"Pop"	3	0	0	0
+90	"TBA"	33	"G"	0	2010	"fall"	"online"		2	3671	"Pop"	3	0	1	0
+90	"TBA"	99	"G"	0	2010	"fall"	"online"		2	3673	"Pop"	3	2	0	0
+1	"T,H"	26	"G"	0	2010	"fall"	"main"	"Morning"	2	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3877					
+5	"TBA"	1	"P"	0	2010	"fall"	"main"		2	3877					
+6	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3950					
+2	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3950					
+3	"TBA"	1	"P"	0	2010	"fall"	"main"		2	3950					
+4	"TBA"	1	"P"	0	2010	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	3952					
+2	"TBA"	7	"P"	0	2010	"fall"	"main"		2	3952					
+1	"M,W,F"	7	"G"	0	2010	"fall"	"main"	"Morning"	3	3960					
+90	"TBA"	6	"P"	0	2010	"fall"	"online"		2	4439					
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	4693					
+3	"TBA"	1	"G"	0	2010	"fall"	"main"		2	4693					
+4	"TBA"	1	"P"	0	2010	"fall"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2010	"fall"	"main"		2	4999					
+1	"M,W"	0	"P"	0	2010	"fall"	"main"	"Morning"	2	5120					
+1	"H"	0	"P"	0	2010	"fall"	"main"	"Afternoon"	1	5965					
+1	"M,W,F"	205	"P"	1	2011	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	261	"P"	1	2011	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"T"	22	"A"	1	2011	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	131	"A"	1	2011	"spring"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	87	"G"	1	2011	"spring"	"online"		2	1015	"None"	2	0	0	1
+90	"TBA"	76	"A"	1	2011	"spring"	"online"		2	1020	"None"	3	0	0	0
+70	"W"	11	"G"	0	2011	"spring"	"sandy"	"Evening"	1	3020	"None"	3	0	0	0
+1	"T,H"	91	"P"	0	2011	"spring"	"main"	"Morning"	2	3041	"None"	3	0	0	0
+1	"T,H"	39	"A"	0	2011	"spring"	"main"	"Afternoon"	2	3042	"None"	3	0	0	0
+1	"T,H"	37	"A"	0	2011	"spring"	"main"	"Morning"	2	3051	"None"	3	1	0	0
+90	"TBA"	56	"P"	0	2011	"spring"	"online"		2	3061	"None"	3	0	0	0
+1	"M,W,F"	23	"P"	0	2011	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+90	"TBA"	61	"P"	0	2011	"spring"	"online"		2	3111	"None"	3	0	0	1
+1	"M,W,F"	20	"P"	0	2011	"spring"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	39	"P"	0	2011	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"M"	18	"G"	0	2011	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	80	"G"	0	2011	"spring"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	31	"P"	0	2011	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+90	"TBA"	65	"A"	0	2011	"spring"	"online"		2	3140	"None"	3	0	0	1
+1	"T,H"	24	"P"	0	2011	"spring"	"main"	"Morning"	2	3200	"DV"	4	1	0	0
+1	"M,W,F"	56	"P"	0	2011	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	18	"G"	0	2011	"spring"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+90	"TBA"	68	"A"	0	2011	"spring"	"online"		2	3365	"DV"	3	2	1	0
+10	"W"	33	"A"	0	2011	"spring"	"main"	"Evening"	1	3380	"DV"	3	1	1	0
+1	"TBA"	5	"G"	0	2011	"spring"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	20	"G"	0	2011	"spring"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+1	"T,H"	44	"G"	0	2011	"spring"	"main"	"Morning"	2	3436	"Global"	3	0	0	0
+90	"TBA"	77	"A"	0	2011	"spring"	"online"		2	3440	"Global"	3	0	0	0
+70	"T"	7	"G"	0	2011	"spring"	"sandy"	"Evening"	1	3480	"Global"	3	1	1	0
+1	"T,H"	47	"G"	0	2011	"spring"	"main"	"Morning"	2	3560	"Crim"	3	0	0	0
+1	"T,H"	57	"A"	0	2011	"spring"	"main"	"Morning"	2	3561	"Crim"	3	0	0	0
+90	"TBA"	67	"P"	0	2011	"spring"	"online"		2	3561	"Crim"	3	0	0	0
+90	"TBA"	67	"A"	0	2011	"spring"	"online"		2	3562	"Crim"	3	0	0	0
+1	"T,H"	64	"P"	0	2011	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+10	"T"	47	"A"	0	2011	"spring"	"main"	"Evening"	1	3566	"Crim"	3	0	0	0
+70	"H"	22	"A"	0	2011	"spring"	"sandy"	"Evening"	1	3569	"Crim"	3	0	0	0
+1	"TBA"	15	"A"	0	2011	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+90	"TBA"	61	"G"	0	2011	"spring"	"online"		2	3638	"Pop"	3	0	1	0
+1	"M,W,F"	96	"G"	0	2011	"spring"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+1	"T,H"	40	"G"	0	2011	"spring"	"main"	"Morning"	2	3673	"Pop"	3	2	0	0
+1	"M,W,F"	38	"P"	0	2011	"spring"	"main"	"Morning"	3	3741	"Global"	3	1	0	0
+1	"TBA"	0	"P"	0	2011	"spring"	"main"		2	3950					
+5	"TBA"	1	"P"	0	2011	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2011	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2011	"spring"	"main"		2	3952					
+10	"H"	2	"P"	0	2011	"spring"	"main"	"Evening"	1	3965					
+1	"TBA"	3	"P"	0	2011	"spring"	"main"		2	4693					
+4	"TBA"	2	"G"	0	2011	"spring"	"main"		2	4693					
+5	"TBA"	1	"P"	0	2011	"spring"	"main"		2	4693					
+6	"TBA"	3	"G"	0	2011	"spring"	"main"		2	4693					
+7	"TBA"	2	"P"	0	2011	"spring"	"main"		2	4693					
+8	"TBA"	2	"P"	0	2011	"spring"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2011	"spring"	"main"		2	4877					
+1	"TBA"	1	"P"	0	2011	"spring"	"main"		2	4999					
+90	"TBA"	1	"A"	0	2011	"spring"	"online"		2	5965					
+1	"T,H"	231	"P"	1	2011	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+2	"M,W,F"	191	"P"	1	2011	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+60	"T"	30	"G"	1	2011	"fall"	"murray"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	108	"A"	1	2011	"fall"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	101	"G"	1	2011	"fall"	"online"		2	1015	"None"	2	0	0	1
+10	"T"	22	"G"	1	2011	"fall"	"main"	"Evening"	1	1020	"None"	3	0	0	0
+90	"TBA"	39	"A"	0	2011	"fall"	"online"		2	3020	"None"	3	0	0	0
+1	"T,H"	65	"P"	0	2011	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"M"	15	"A"	0	2011	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+90	"TBA"	53	"P"	0	2011	"fall"	"online"		2	3111	"None"	3	0	0	1
+1	"M,W,F"	32	"G"	0	2011	"fall"	"main"	"Morning"	3	3112	"None"	4	2	0	1
+2	"T,H"	41	"G"	0	2011	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+20	"W"	23	"G"	0	2011	"fall"	"bountiful"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	22	"G"	0	2011	"fall"	"online"		2	3112	"None"	4	2	0	1
+1	"T,H"	60	"P"	0	2011	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"W"	8	"A"	0	2011	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+90	"TBA"	67	"A"	0	2011	"fall"	"online"		2	3140	"None"	3	0	0	1
+1	"M"	9	"G"	0	2011	"fall"	"main"	"Morning"	1	3200	"DV"	4	1	0	0
+1	"T,H"	11	"P"	0	2011	"fall"	"main"	"Afternoon"	2	3310	"DV"	3	0	0	0
+1	"T,H"	77	"P"	0	2011	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+70	"T"	21	"A"	0	2011	"fall"	"sandy"	"Evening"	1	3337	"DV"	3	2	1	0
+1	"M,W,F"	21	"G"	0	2011	"fall"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+90	"TBA"	27	"A"	0	2011	"fall"	"online"		2	3365	"DV"	3	2	1	0
+90	"TBA"	37	"G"	0	2011	"fall"	"online"		2	3380	"DV"	3	1	1	0
+1	"M,W,F"	79	"P"	0	2011	"fall"	"main"	"Morning"	3	3381	"DV"	3	1	0	0
+1	"TBA"	6	"G"	0	2011	"fall"	"main"		2	3393	"DV"	3	0	0	0
+1	"M,W,F"	12	"G"	0	2011	"fall"	"main"	"Morning"	3	3435	"Global"	3	0	0	0
+90	"TBA"	26	"P"	0	2011	"fall"	"online"		2	3436	"Global"	3	0	0	0
+1	"M,W,F"	38	"A"	0	2011	"fall"	"main"	"Morning"	3	3440	"Global"	3	0	0	0
+90	"TBA"	35	"G"	0	2011	"fall"	"online"		2	3446	"Global"	3	0	0	0
+90	"TBA"	57	"A"	0	2011	"fall"	"online"		2	3560	"Crim"	3	0	0	0
+1	"M,W,F"	64	"A"	0	2011	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+90	"TBA"	74	"P"	0	2011	"fall"	"online"		2	3561	"Crim"	3	0	0	0
+1	"M,W,F"	95	"P"	0	2011	"fall"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+90	"TBA"	59	"P"	0	2011	"fall"	"online"		2	3563	"Crim"	3	0	0	0
+10	"H"	19	"A"	0	2011	"fall"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+90	"TBA"	50	"A"	0	2011	"fall"	"online"		2	3567	"Crim"	3	0	0	0
+10	"W"	42	"A"	0	2011	"fall"	"main"	"Evening"	1	3569	"Crim"	3	0	0	0
+1	"TBA"	7	"P"	0	2011	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"M,W,F"	5	"P"	0	2011	"fall"	"main"	"Morning"	3	3610	"Pop"	3	0	0	0
+90	"TBA"	35	"P"	0	2011	"fall"	"online"		2	3638	"Pop"	3	0	1	0
+1	"M,W"	66	"G"	0	2011	"fall"	"main"	"Morning"	2	3650	"Pop"	3	3	0	0
+90	"TBA"	43	"G"	0	2011	"fall"	"online"		2	3671	"Pop"	3	0	1	0
+1	"T,H"	61	"P"	0	2011	"fall"	"main"	"Morning"	2	3673	"Pop"	3	2	0	0
+70	"H"	19	"G"	0	2011	"fall"	"sandy"	"Evening"	1	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3877					
+5	"TBA"	1	"P"	0	2011	"fall"	"main"		2	3877					
+6	"TBA"	1	"P"	0	2011	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+2	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+3	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+4	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+5	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+6	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3951					
+4	"TBA"	0	"P"	0	2011	"fall"	"main"		2	3951					
+1	"TBA"	1	"P"	0	2011	"fall"	"main"		2	3952					
+2	"TBA"	3	"P"	0	2011	"fall"	"main"		2	3952					
+1	"T,H"	17	"P"	0	2011	"fall"	"main"	"Morning"	2	4085					
+1	"TBA"	0	"P"	0	2011	"fall"	"main"		2	4693					
+3	"TBA"	4	"G"	0	2011	"fall"	"main"		2	4693					
+4	"TBA"	1	"P"	0	2011	"fall"	"main"		2	4693					
+5	"TBA"	2	"P"	0	2011	"fall"	"main"		2	4693					
+6	"TBA"	0	"P"	0	2011	"fall"	"main"		2	4693					
+8	"TBA"	1	"P"	0	2011	"fall"	"main"		2	4693					
+9	"TBA"	1	"P"	0	2011	"fall"	"main"		2	4693					
+10	"TBA"	1	"G"	0	2011	"fall"	"main"		2	4693					
+11	"TBA"	1	"G"	0	2011	"fall"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2011	"fall"	"main"		2	4999					
+2	"TBA"	1	"P"	0	2011	"fall"	"main"		2	4999					
+1	"M,W"	0	"P"	0	2011	"fall"	"main"	"Morning"	2	5120					
+1	"M,W,F"	3	"A"	0	2011	"fall"	"main"	"Morning"	3	5440					
+1	"M"	1	"P"	0	2011	"fall"	"main"	"Afternoon"	1	5720					
+1	"M,W,F"	134	"P"	1	2012	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	192	"P"	1	2012	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"T"	10	"A"	1	2012	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+70	"W"	10	"G"	1	2012	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	80	"A"	1	2012	"spring"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	101	"G"	1	2012	"spring"	"online"		2	1015	"None"	2	0	0	1
+90	"TBA"	60	"A"	1	2012	"spring"	"online"		2	1020	"None"	3	0	0	0
+90	"TBA"	48	"A"	0	2012	"spring"	"online"		2	3020	"None"	3	0	0	0
+1	"T,H"	97	"P"	0	2012	"spring"	"main"	"Morning"	2	3041	"None"	3	0	0	0
+1	"T,H"	26	"A"	0	2012	"spring"	"main"	"Afternoon"	2	3042	"None"	3	0	0	0
+1	"M,W,F"	42	"A"	0	2012	"spring"	"main"	"Morning"	3	3051	"None"	3	1	0	0
+90	"TBA"	37	"P"	0	2012	"spring"	"online"		2	3061	"None"	3	0	0	0
+1	"M,W,F"	45	"A"	0	2012	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"T,H"	20	"P"	0	2012	"spring"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+90	"TBA"	40	"G"	0	2012	"spring"	"online"		2	3111	"None"	3	0	0	1
+1	"T,H"	69	"G"	0	2012	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"M"	37	"G"	0	2012	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	73	"G"	0	2012	"spring"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	54	"P"	0	2012	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+90	"TBA"	82	"A"	0	2012	"spring"	"online"		2	3140	"None"	3	0	0	1
+1	"H"	22	"P"	0	2012	"spring"	"main"	"Morning"	1	3200	"DV"	4	1	0	0
+1	"M,W,F"	45	"P"	0	2012	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W,F"	12	"G"	0	2012	"spring"	"main"	"Morning"	3	3365	"DV"	3	2	1	0
+90	"TBA"	45	"A"	0	2012	"spring"	"online"		2	3365	"DV"	3	2	1	0
+1	"M,W"	31	"G"	0	2012	"spring"	"main"	"Morning"	2	3380	"DV"	3	1	1	0
+1	"TBA"	11	"G"	0	2012	"spring"	"main"		2	3393	"DV"	3	0	0	0
+1	"T,H"	21	"G"	0	2012	"spring"	"main"	"Morning"	2	3435	"Global"	3	0	0	0
+70	"T"	9	"G"	0	2012	"spring"	"sandy"	"Evening"	1	3436	"Global"	3	0	0	0
+90	"TBA"	77	"A"	0	2012	"spring"	"online"		2	3440	"Global"	3	0	0	0
+90	"TBA"	66	"G"	0	2012	"spring"	"online"		2	3480	"Global"	3	1	1	0
+1	"T,H"	66	"P"	0	2012	"spring"	"main"	"Afternoon"	2	3560	"Crim"	3	0	0	0
+90	"TBA"	93	"P"	0	2012	"spring"	"online"		2	3561	"Crim"	3	0	0	0
+10	"T"	27	"A"	0	2012	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+1	"T,H"	66	"P"	0	2012	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+1	"T,H"	75	"A"	0	2012	"spring"	"main"	"Morning"	2	3569	"Crim"	3	0	0	0
+70	"H"	23	"A"	0	2012	"spring"	"sandy"	"Evening"	1	3570					
+1	"TBA"	9	"P"	0	2012	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+60	"W"	13	"G"	0	2012	"spring"	"murray"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"T,H"	94	"P"	0	2012	"spring"	"main"	"Morning"	2	3650	"Pop"	3	3	0	0
+10	"W"	28	"G"	0	2012	"spring"	"main"	"Evening"	1	3653	"Pop"	3	0	0	0
+90	"TBA"	89	"P"	0	2012	"spring"	"online"		2	3673	"Pop"	3	2	0	0
+90	"TBA"	61	"G"	0	2012	"spring"	"online"		2	3741	"Global"	3	1	0	0
+1	"TBA"	0	"P"	0	2012	"spring"	"main"		2	3950					
+6	"TBA"	0	"P"	0	2012	"spring"	"main"		2	3950					
+7	"TBA"	1	"P"	0	2012	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2012	"spring"	"main"		2	3951					
+4	"TBA"	1	"A"	0	2012	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2012	"spring"	"main"		2	3952					
+6	"TBA"	6	"P"	0	2012	"spring"	"main"		2	3952					
+1	"T,H"	7	"P"	0	2012	"spring"	"main"	"Afternoon"	2	4438					
+1	"TBA"	3	"P"	0	2012	"spring"	"main"		2	4693					
+2	"TBA"	4	"G"	0	2012	"spring"	"main"		2	4693					
+9	"TBA"	3	"P"	0	2012	"spring"	"main"		2	4693					
+10	"TBA"	1	"A"	0	2012	"spring"	"main"		2	4693					
+11	"TBA"	0	"G"	0	2012	"spring"	"main"		2	4693					
+12	"TBA"	2	"P"	0	2012	"spring"	"main"		2	4693					
+13	"TBA"	2	"G"	0	2012	"spring"	"main"		2	4693					
+14	"TBA"	0	"P"	0	2012	"spring"	"main"		2	4693					
+1	"TBA"	1	"P"	0	2012	"spring"	"main"		2	4877					
+3	"TBA"	0	"P"	0	2012	"spring"	"main"		2	4877					
+1	"TBA"	1	"P"	0	2012	"spring"	"main"		2	4999					
+4	"TBA"	1	"P"	0	2012	"spring"	"main"		2	4999					
+90	"TBA"	9	"A"	0	2012	"spring"	"online"		2	5440					
+1	"T,H"	263	"P"	1	2012	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+2	"M,W,F"	159	"P"	1	2012	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+60	"T"	24	"G"	1	2012	"fall"	"murray"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	81	"A"	1	2012	"fall"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	118	"G"	1	2012	"fall"	"online"		2	1015	"None"	2	0	0	1
+90	"TBA"	54	"A"	0	2012	"fall"	"online"		2	3020	"None"	3	0	0	0
+1	"M,W,F"	10	"P"	0	2012	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+2	"M,W,F"	9	"P"	0	2012	"fall"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+70	"W"	23	"A"	0	2012	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+90	"TBA"	50	"P"	0	2012	"fall"	"online"		2	3111	"None"	3	0	0	1
+1	"T,H"	53	"G"	0	2012	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"T"	77	"G"	0	2012	"fall"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	63	"G"	0	2012	"fall"	"online"		2	3112	"None"	4	2	0	1
+1	"T,H"	70	"P"	0	2012	"fall"	"main"	"Morning"	2	3140	"None"	3	0	0	1
+70	"M"	12	"A"	0	2012	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+90	"TBA"	51	"A"	0	2012	"fall"	"online"		2	3140	"None"	3	0	0	1
+1	"T,H"	62	"P"	0	2012	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+2	"T,H"	7	"P"	0	2012	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+70	"T"	14	"A"	0	2012	"fall"	"sandy"	"Evening"	1	3337	"DV"	3	2	1	0
+90	"TBA"	34	"A"	0	2012	"fall"	"online"		2	3365	"DV"	3	2	1	0
+1	"M,W,F"	23	"G"	0	2012	"fall"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"M,W,F"	87	"P"	0	2012	"fall"	"main"	"Morning"	3	3381	"DV"	3	1	0	0
+1	"T,H"	13	"P"	0	2012	"fall"	"main"	"Afternoon"	2	3383					
+1	"TBA"	9	"G"	0	2012	"fall"	"main"		2	3393	"DV"	3	0	0	0
+90	"TBA"	28	"G"	0	2012	"fall"	"online"		2	3435	"Global"	3	0	0	0
+1	"M,W,F"	19	"G"	0	2012	"fall"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+1	"T,H"	68	"A"	0	2012	"fall"	"main"	"Afternoon"	2	3440	"Global"	3	0	0	0
+90	"TBA"	69	"A"	0	2012	"fall"	"online"		2	3560	"Crim"	3	0	0	0
+1	"M,W,F"	50	"A"	0	2012	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+90	"TBA"	66	"P"	0	2012	"fall"	"online"		2	3561	"Crim"	3	0	0	0
+1	"M,W,F"	87	"P"	0	2012	"fall"	"main"	"Morning"	3	3562	"Crim"	3	0	0	0
+90	"TBA"	40	"P"	0	2012	"fall"	"online"		2	3563	"Crim"	3	0	0	0
+10	"H"	16	"A"	0	2012	"fall"	"main"	"Evening"	1	3564	"Crim"	3	0	0	0
+90	"TBA"	56	"A"	0	2012	"fall"	"online"		2	3567	"Crim"	3	0	0	0
+1	"T,H"	23	"A"	0	2012	"fall"	"main"	"Morning"	2	3568	"Crim"	3	0	0	0
+10	"H"	36	"A"	0	2012	"fall"	"main"	"Evening"	1	3569	"Crim"	3	0	0	0
+1	"TBA"	12	"A"	0	2012	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+70	"H"	4	"G"	0	2012	"fall"	"sandy"	"Evening"	1	3638	"Pop"	3	0	1	0
+1	"M,W,F"	84	"G"	0	2012	"fall"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+90	"TBA"	70	"G"	0	2012	"fall"	"online"		2	3673	"Pop"	3	2	0	0
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3877					
+2	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3877					
+3	"TBA"	1	"P"	0	2012	"fall"	"main"		2	3877					
+5	"TBA"	1	"P"	0	2012	"fall"	"main"		2	3877					
+6	"TBA"	2	"P"	0	2012	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3950					
+2	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3950					
+3	"TBA"	2	"P"	0	2012	"fall"	"main"		2	3950					
+4	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3950					
+5	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3950					
+6	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3951					
+2	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3951					
+3	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3951					
+4	"TBA"	3	"P"	0	2012	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	3952					
+2	"TBA"	6	"P"	0	2012	"fall"	"main"		2	3952					
+1	"T,H"	22	"P"	0	2012	"fall"	"main"	"Morning"	2	4085					
+1	"M,W,F"	5	"P"	0	2012	"fall"	"main"	"Afternoon"	3	4674					
+2	"M,W,F"	4	"P"	0	2012	"fall"	"main"	"Afternoon"	3	4674					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4693					
+2	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4693					
+3	"TBA"	4	"G"	0	2012	"fall"	"main"		2	4693					
+4	"TBA"	5	"P"	0	2012	"fall"	"main"		2	4693					
+5	"TBA"	3	"P"	0	2012	"fall"	"main"		2	4693					
+6	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4693					
+8	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4693					
+9	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4693					
+10	"TBA"	0	"G"	0	2012	"fall"	"main"		2	4693					
+11	"TBA"	0	"G"	0	2012	"fall"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4877					
+1	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4999					
+2	"TBA"	0	"P"	0	2012	"fall"	"main"		2	4999					
+1	"H"	2	"P"	0	2012	"fall"	"main"	"Evening"	1	5120					
+1	"T,H"	4	"A"	0	2012	"fall"	"main"	"Afternoon"	2	5440					
+1	"M,W,F"	104	"P"	1	2013	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	165	"P"	1	2013	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+20	"T"	4	"A"	1	2013	"spring"	"bountiful"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	103	"A"	1	2013	"spring"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	112	"G"	1	2013	"spring"	"online"		2	1015	"None"	2	0	0	1
+90	"TBA"	56	"A"	1	2013	"spring"	"online"		2	1020	"None"	3	0	0	0
+90	"TBA"	45	"A"	0	2013	"spring"	"online"		2	3020	"None"	3	0	0	0
+1	"T,H"	84	"P"	0	2013	"spring"	"main"	"Morning"	2	3041	"None"	3	0	0	0
+1	"M,W,F"	23	"A"	0	2013	"spring"	"main"	"Morning"	3	3042	"None"	3	0	0	0
+1	"M,W"	44	"A"	0	2013	"spring"	"main"	"Morning"	2	3051	"None"	3	1	0	0
+90	"TBA"	48	"P"	0	2013	"spring"	"online"		2	3061	"None"	3	0	0	0
+1	"M,W,F"	39	"A"	0	2013	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+90	"TBA"	70	"P"	0	2013	"spring"	"online"		2	3111	"None"	3	0	0	1
+1	"T,H"	70	"G"	0	2013	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+70	"H"	34	"A"	0	2013	"spring"	"sandy"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	94	"G"	0	2013	"spring"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	39	"P"	0	2013	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+90	"TBA"	59	"A"	0	2013	"spring"	"online"		2	3140	"None"	3	0	0	1
+1	"H"	9	"P"	0	2013	"spring"	"main"	"Morning"	1	3200	"DV"	4	1	0	0
+1	"M,W,F"	46	"A"	0	2013	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"T,H"	53	"P"	0	2013	"spring"	"main"	"Afternoon"	2	3365	"DV"	3	2	1	0
+90	"TBA"	41	"A"	0	2013	"spring"	"online"		2	3380	"DV"	3	1	1	0
+1	"TBA"	12	"G"	0	2013	"spring"	"main"		2	3393	"DV"	3	0	0	0
+70	"T"	4	"G"	0	2013	"spring"	"sandy"	"Evening"	1	3435	"Global"	3	0	0	0
+1	"M,W,F"	20	"G"	0	2013	"spring"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+90	"TBA"	84	"A"	0	2013	"spring"	"online"		2	3440	"Global"	3	0	0	0
+1	"T,H"	36	"P"	0	2013	"spring"	"main"	"Morning"	2	3446	"Global"	3	0	0	0
+1	"T,H"	20	"P"	0	2013	"spring"	"main"	"Afternoon"	2	3480	"Global"	3	1	1	0
+90	"TBA"	64	"A"	0	2013	"spring"	"online"		2	3560	"Crim"	3	0	0	0
+90	"TBA"	104	"P"	0	2013	"spring"	"online"		2	3561	"Crim"	3	0	0	0
+10	"W"	18	"A"	0	2013	"spring"	"main"	"Evening"	1	3562	"Crim"	3	0	0	0
+1	"T,H"	77	"P"	0	2013	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+1	"M,W,F"	50	"A"	0	2013	"spring"	"main"	"Morning"	3	3566	"Crim"	3	0	0	0
+70	"W"	17	"A"	0	2013	"spring"	"sandy"	"Evening"	1	3569	"Crim"	3	0	0	0
+60	"M"	22	"A"	0	2013	"spring"	"murray"	"Evening"	1	3570					
+1	"TBA"	23	"A"	0	2013	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+90	"TBA"	42	"G"	0	2013	"spring"	"online"		2	3638	"Pop"	3	0	1	0
+1	"M,W,F"	57	"P"	0	2013	"spring"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+1	"T,H"	22	"P"	0	2013	"spring"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+2	"T,H"	5	"P"	0	2013	"spring"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+90	"TBA"	120	"P"	0	2013	"spring"	"online"		2	3673	"Pop"	3	2	0	0
+1	"T,H"	25	"G"	0	2013	"spring"	"main"	"Afternoon"	2	3741	"Global"	3	1	0	0
+90	"TBA"	60	"G"	0	2013	"spring"	"online"		2	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2013	"spring"	"main"		2	3950					
+6	"TBA"	0	"P"	0	2013	"spring"	"main"		2	3950					
+7	"TBA"	0	"P"	0	2013	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2013	"spring"	"main"		2	3951					
+2	"TBA"	2	"G"	0	2013	"spring"	"main"		2	3951					
+5	"TBA"	2	"P"	0	2013	"spring"	"main"		2	3951					
+1	"TBA"	1	"P"	0	2013	"spring"	"main"		2	3952					
+6	"TBA"	7	"P"	0	2013	"spring"	"main"		2	3952					
+1	"T,H"	5	"P"	0	2013	"spring"	"main"	"Morning"	2	4438					
+1	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4693					
+2	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4693					
+3	"TBA"	1	"P"	0	2013	"spring"	"main"		2	4693					
+4	"TBA"	1	"A"	0	2013	"spring"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4877					
+2	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4877					
+3	"TBA"	1	"P"	0	2013	"spring"	"main"		2	4877					
+4	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4877					
+1	"TBA"	1	"P"	0	2013	"spring"	"main"		2	4999					
+2	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4999					
+3	"TBA"	0	"P"	0	2013	"spring"	"main"		2	4999					
+4	"TBA"	1	"P"	0	2013	"spring"	"main"		2	4999					
+5	"TBA"	1	"P"	0	2013	"spring"	"main"		2	4999					
+90	"TBA"	1	"A"	0	2013	"spring"	"online"		2	5440					
+1	"T,H"	237	"P"	1	2013	"fall"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+2	"M,W,F"	104	"P"	1	2013	"fall"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+60	"T"	14	"G"	1	2013	"fall"	"murray"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	108	"A"	1	2013	"fall"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	88	"G"	1	2013	"fall"	"online"		2	1015	"None"	2	0	0	1
+90	"TBA"	36	"A"	0	2013	"fall"	"online"		2	3020	"None"	3	0	0	0
+70	"T"	22	"A"	0	2013	"fall"	"sandy"	"Evening"	1	3051	"None"	3	1	0	0
+1	"T,H"	55	"P"	0	2013	"fall"	"main"	"Morning"	2	3111	"None"	3	0	0	1
+70	"W"	17	"A"	0	2013	"fall"	"sandy"	"Evening"	1	3111	"None"	3	0	0	1
+90	"TBA"	42	"G"	0	2013	"fall"	"online"		2	3111	"None"	3	0	0	1
+1	"T,H"	94	"G"	0	2013	"fall"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+90	"TBA"	77	"G"	0	2013	"fall"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	42	"P"	0	2013	"fall"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+70	"M"	15	"A"	0	2013	"fall"	"sandy"	"Evening"	1	3140	"None"	3	0	0	1
+90	"TBA"	81	"A"	0	2013	"fall"	"online"		2	3140	"None"	3	0	0	1
+1	"T,H"	48	"P"	0	2013	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+2	"T,H"	6	"P"	0	2013	"fall"	"main"	"Morning"	2	3337	"DV"	3	2	1	0
+90	"TBA"	39	"G"	0	2013	"fall"	"online"		2	3365	"DV"	3	2	1	0
+1	"M,W,F"	18	"G"	0	2013	"fall"	"main"	"Morning"	3	3380	"DV"	3	1	1	0
+1	"T,H"	62	"P"	0	2013	"fall"	"main"	"Afternoon"	2	3381	"DV"	3	1	0	0
+1	"TBA"	2	"P"	0	2013	"fall"	"main"		2	3393	"DV"	3	0	0	0
+90	"TBA"	27	"G"	0	2013	"fall"	"online"		2	3435	"Global"	3	0	0	0
+1	"M,W,F"	22	"G"	0	2013	"fall"	"main"	"Morning"	3	3436	"Global"	3	0	0	0
+1	"T,H"	41	"A"	0	2013	"fall"	"main"	"Morning"	2	3440	"Global"	3	0	0	0
+90	"TBA"	81	"G"	0	2013	"fall"	"online"		2	3480	"Global"	3	1	1	0
+90	"TBA"	66	"A"	0	2013	"fall"	"online"		2	3560	"Crim"	3	0	0	0
+1	"M,W,F"	66	"A"	0	2013	"fall"	"main"	"Morning"	3	3561	"Crim"	3	0	0	0
+90	"TBA"	87	"P"	0	2013	"fall"	"online"		2	3561	"Crim"	3	0	0	0
+90	"TBA"	56	"A"	0	2013	"fall"	"online"		2	3562	"Crim"	3	0	0	0
+1	"M,W,F"	38	"P"	0	2013	"fall"	"main"	"Morning"	3	3563	"Crim"	3	0	0	0
+70	"H"	12	"A"	0	2013	"fall"	"sandy"	"Evening"	1	3564	"Crim"	3	0	0	0
+90	"TBA"	41	"A"	0	2013	"fall"	"online"		2	3567	"Crim"	3	0	0	0
+10	"H"	32	"A"	0	2013	"fall"	"main"	"Evening"	1	3569	"Crim"	3	0	0	0
+1	"TBA"	11	"A"	0	2013	"fall"	"main"		2	3593	"Crim"	3	0	0	0
+1	"M,W,F"	10	"P"	0	2013	"fall"	"main"	"Morning"	3	3638	"Pop"	3	0	1	0
+1	"M,W,F"	54	"G"	0	2013	"fall"	"main"	"Morning"	3	3650	"Pop"	3	3	0	0
+90	"TBA"	56	"P"	0	2013	"fall"	"online"		2	3671	"Pop"	3	0	1	0
+1	"T,H"	65	"P"	0	2013	"fall"	"main"	"Morning"	2	3673	"Pop"	3	2	0	0
+1	"M,W,F"	23	"G"	0	2013	"fall"	"main"	"Morning"	3	3769	"DV"	3	1	0	0
+1	"TBA"	1	"P"	0	2013	"fall"	"main"		2	3877					
+2	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3877					
+6	"TBA"	1	"P"	0	2013	"fall"	"main"		2	3877					
+7	"TBA"	1	"P"	0	2013	"fall"	"main"		2	3877					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3950					
+2	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3950					
+3	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3950					
+5	"TBA"	1	"P"	0	2013	"fall"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3951					
+2	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	3952					
+2	"TBA"	3	"P"	0	2013	"fall"	"main"		2	3952					
+1	"M,W"	16	"P"	0	2013	"fall"	"main"	"Morning"	2	4674					
+2	"M,W"	3	"P"	0	2013	"fall"	"main"	"Morning"	2	4674					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	4693					
+2	"TBA"	2	"P"	0	2013	"fall"	"main"		2	4693					
+3	"TBA"	1	"G"	0	2013	"fall"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	4877					
+1	"TBA"	0	"P"	0	2013	"fall"	"main"		2	4999					
+2	"TBA"	1	"P"	0	2013	"fall"	"main"		2	4999					
+3	"TBA"	0	"P"	0	2013	"fall"	"main"		2	4999					
+1	"T,H"	5	"A"	0	2013	"fall"	"main"	"Morning"	2	5440					
+1	"M,W,F"	87	"A"	1	2014	"spring"	"main"	"Morning"	3	1010	"None"	4	0	0	1
+2	"T,H"	144	"P"	1	2014	"spring"	"main"	"Morning"	2	1010	"None"	4	0	0	1
+70	"H"	14	"A"	1	2014	"spring"	"sandy"	"Evening"	1	1010	"None"	4	0	0	1
+90	"TBA"	58	"P"	1	2014	"spring"	"online"		2	1010	"None"	4	0	0	1
+90	"TBA"	78	"G"	1	2014	"spring"	"online"		2	1015	"None"	2	0	0	1
+20	"M"	5	"A"	1	2014	"spring"	"bountiful"	"Evening"	1	1020	"None"	3	0	0	0
+1	"T,H"	91	"P"	0	2014	"spring"	"main"	"Morning"	2	3041	"None"	3	0	0	0
+1	"M,W"	58	"A"	0	2014	"spring"	"main"	"Morning"	2	3042	"None"	3	0	0	0
+90	"TBA"	49	"P"	0	2014	"spring"	"online"		2	3061	"None"	3	0	0	0
+1	"M,W,F"	42	"P"	0	2014	"spring"	"main"	"Morning"	3	3111	"None"	3	0	0	1
+90	"TBA"	55	"G"	0	2014	"spring"	"online"		2	3111	"None"	3	0	0	1
+1	"T,H"	45	"G"	0	2014	"spring"	"main"	"Morning"	2	3112	"None"	4	2	0	1
+10	"H"	85	"G"	0	2014	"spring"	"main"	"Evening"	1	3112	"None"	4	2	0	1
+90	"TBA"	72	"G"	0	2014	"spring"	"online"		2	3112	"None"	4	2	0	1
+1	"M,W,F"	22	"P"	0	2014	"spring"	"main"	"Morning"	3	3140	"None"	3	0	0	1
+90	"TBA"	78	"A"	0	2014	"spring"	"online"		2	3140	"None"	3	0	0	1
+1	"M,W,F"	38	"A"	0	2014	"spring"	"main"	"Morning"	3	3337	"DV"	3	2	1	0
+1	"M,W"	10	"G"	0	2014	"spring"	"main"	"Morning"	2	3365	"DV"	3	2	1	0
+90	"TBA"	64	"G"	0	2014	"spring"	"online"		2	3380	"DV"	3	1	1	0
+1	"TBA"	5	"G"	0	2014	"spring"	"main"		2	3393	"DV"	3	0	0	0
+60	"M"	3	"G"	0	2014	"spring"	"murray"	"Evening"	1	3435	"Global"	3	0	0	0
+90	"TBA"	80	"A"	0	2014	"spring"	"online"		2	3440	"Global"	3	0	0	0
+90	"TBA"	53	"G"	0	2014	"spring"	"online"		2	3446	"Global"	3	0	0	0
+1	"T,H"	32	"P"	0	2014	"spring"	"main"	"Afternoon"	2	3480	"Global"	3	1	1	0
+2	"T,H"	3	"P"	0	2014	"spring"	"main"	"Afternoon"	2	3480	"Global"	3	1	1	0
+1	"T,H"	6	"G"	0	2014	"spring"	"main"	"Morning"	2	3486					
+1	"M,W"	46	"A"	0	2014	"spring"	"main"	"Afternoon"	2	3510	"Crim"	3	0	0	0
+1	"T,H"	105	"P"	0	2014	"spring"	"main"	"Afternoon"	2	3560	"Crim"	3	0	0	0
+90	"TBA"	91	"P"	0	2014	"spring"	"online"		2	3561	"Crim"	3	0	0	0
+90	"TBA"	35	"A"	0	2014	"spring"	"online"		2	3562	"Crim"	3	0	0	0
+1	"T,H"	73	"P"	0	2014	"spring"	"main"	"Morning"	2	3565	"Crim"	3	0	1	0
+90	"TBA"	81	"A"	0	2014	"spring"	"online"		2	3569	"Crim"	3	0	0	0
+10	"W"	37	"A"	0	2014	"spring"	"main"	"Evening"	1	3570					
+1	"TBA"	19	"A"	0	2014	"spring"	"main"		2	3593	"Crim"	3	0	0	0
+70	"W"	3	"P"	0	2014	"spring"	"sandy"	"Evening"	1	3638	"Pop"	3	0	1	0
+90	"TBA"	124	"G"	0	2014	"spring"	"online"		2	3650	"Pop"	3	3	0	0
+1	"T,H"	14	"P"	0	2014	"spring"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+2	"T,H"	3	"P"	0	2014	"spring"	"main"	"Morning"	2	3671	"Pop"	3	0	1	0
+90	"TBA"	107	"P"	0	2014	"spring"	"online"		2	3673	"Pop"	3	2	0	0
+1	"M,W,F"	8	"G"	0	2014	"spring"	"main"	"Morning"	3	3741	"Global"	3	1	0	0
+1	"M,W,F"	13	"P"	0	2014	"spring"	"main"	"Morning"	3	3769	"DV"	3	1	0	0
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3950					
+3	"TBA"	1	"P"	0	2014	"spring"	"main"		2	3950					
+5	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3950					
+6	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3950					
+7	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3950					
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3951					
+3	"TBA"	1	"P"	0	2014	"spring"	"main"		2	3951					
+5	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3951					
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	3952					
+6	"TBA"	13	"P"	0	2014	"spring"	"main"		2	3952					
+1	"M,W"	10	"P"	0	2014	"spring"	"main"	"Morning"	2	4085					
+1	"T,H"	3	"P"	0	2014	"spring"	"main"	"Morning"	2	4438					
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4693					
+2	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4693					
+3	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4693					
+4	"TBA"	0	"A"	0	2014	"spring"	"main"		2	4693					
+6	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4693					
+7	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4693					
+8	"TBA"	2	"G"	0	2014	"spring"	"main"		2	4693					
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4877					
+2	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4877					
+3	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4877					
+4	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4877					
+5	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4877					
+1	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4998					
+1	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4999					
+2	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4999					
+3	"TBA"	1	"P"	0	2014	"spring"	"main"		2	4999					
+4	"TBA"	0	"P"	0	2014	"spring"	"main"		2	4999					
+90	"TBA"	7	"A"	0	2014	"spring"	"online"		2	5440					

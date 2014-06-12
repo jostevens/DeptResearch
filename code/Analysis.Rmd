@@ -1,0 +1,343 @@
+Dept of Sociology Research
+=========================
+
+Brief notes:
+-Decline in enrollment for 3 day a week and 1 day a week courses (decline starts in 2004 for lower division, 2009 for upper)
+-massive increase in online / coresponding decrease in Sandy classes (Murry continually low)
+-preference for morning classes
+
+
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(randomForest)
+library(ggplot2)
+library(dplyr)
+#library(knitr)
+d01 <- read.delim("Query1.txt", header=TRUE, sep="\t") # This data was queried from the access database in this directory
+options(digit=3)
+
+
+#d01$Attrib[is.na(d01$Attrib)] <- 0
+
+
+  g <- ggplot(d01, aes(x=CNum, y=CurrentEnroll, group=SNum))
+  g+geom_point(aes(colour = SNum, alpha=.4)) + scale_colour_gradient(low="red") + labs(title="Enrollment by Course Number", x= "Course Number", y="Enrollment")
+
+s <- ggplot(d01, aes(x=CNum, y=CurrentEnroll, group=Location))
+
+s + geom_point(aes(colour = Location, alpha=.1)) + 
+  scale_fill_manual(values = c("#FF0000", "#000FF", "#FF99E6", 
+                               "#FFB894", "#66FF66", "#ADAD85"),
+                    breaks = c("main", "online", "sandy", "bountiful", "murry", "park city"),
+                    labels = c("Main", "Online", "Sandy", "Bountiful", "Murry", "Park City")) + 
+  labs(title="Enrollment by Course Number", 
+       x= "Course Number", 
+       y="Enrollment")
+
+```
+
+
+We are going to use machine learning and statistial techniques to try and understand course enrollment in the sociology department over time.
+
+Summary Statistics
+------------------
+
+First we will look at total enrollment over time, then start to break down enrollment by different characteristics such as time of day, course attributes, and location.
+
+There are a total of `r nrow(d01)` courses listed since the Spring semester in 2000, the earliest point in our data.
+
+```{r summary, echo=FALSE}
+#summary(d01)
+d02 <- d01 %.%
+  group_by(Status, Year) %.%
+  summarise(total = sum(CurrentEnroll)) %.%
+  arrange(desc(total))
+
+s <- ggplot(d02, aes(x=Year, y=total))
+s + geom_line(aes(colour = Status, alpha=.4)) + labs(title="Enrollment by Professor Status")
+
+
+d03 <- d01 %.%
+  group_by(Attrib, Year) %.%
+  summarise(total = sum(CurrentEnroll), day = mean(as.integer(Time2))) %.%
+  arrange(desc(total))
+
+
+d04 <- d01 %.%
+  group_by(CNum, Year) %.%
+  summarise(total = sum(CurrentEnroll), day = mean(as.integer(Time2), sec = count(CNum))) %.%
+  arrange(desc(total))
+
+
+s <- ggplot(d04, aes(x=Year, y=total))
+s + geom_point(aes(colour = day, alpha=.4)) + labs(title="Enrollment by Course")
+```
+
+Random Forrests
+--------------
+The first analytical technique we wil try is a random forrest approach. A random forest is part of the classification and regression tree (CART) model family. These techniques make few assumptions about the data and try to create an effective prediction by createing a small dataset (1/3 of the original data) and partitioning it to find the best fitting model. This model is than applied to the larger part of the data set in order to test the predictive capability of the model. In a random forest this process is repeated hundreds of times, and also randomly selects independent variables to be used in the model. In the end you get a very good predictive model and the importance of the variables in that prediction. The problem with CART models is that the models they generate are black boxes, there is no way to know what the actual model is.
+
+```{r randomForest, echo=FALSE, fig.width=7, fig.height=6}
+library(randomForest)
+rf02 <- randomForest(CurrentEnroll ~ ., data=d01, ntree=100, mtry=3) # Remove only duplicate fields / Other models were tried but this one has the best results
+varImpPlot(rf02)
+rf02
+partialPlot(rf02, d01, NumAttributes)
+partialPlot(rf02, d01, SNum)
+partialPlot(rf02, d01, CNum)
+partialPlot(rf02, d01, CredHours)
+partialPlot(rf02, d01, CrossList)
+partialPlot(rf02, d01, Days)
+partialPlot(rf02, d01, Time2)
+partialPlot(rf02, d01, Year)
+partialPlot(rf02, d01, Location)
+partialPlot(rf02, d01, Semester)
+
+library(rpart)
+library(rpart.plot)
+cart01 <- rpart(CurrentEnroll ~ ., data=d01)
+rpart.plot(cart01)
+
+
+```
+
+```{r NN, echo=FALSE}
+library(neuralnet)
+splitdf <- function(dataframe, seed=NULL) {
+    if (!is.null(seed)) set.seed(seed)
+    index <- 1:nrow(dataframe)
+    trainindex <- sample(index, trunc(length(index)/2))
+    trainset <- dataframe[trainindex, ]
+    testset <- dataframe[-trainindex, ]
+    list(trainset=trainset,testset=testset)
+}
+splits <- splitdf(d01, 1203)
+ 
+#it returns a list - two data frames called trainset and testset
+str(splits)
+ 
+# there are 75 observations in each data frame
+lapply(splits,nrow)
+ 
+#view the first few columns in each data frame
+lapply(splits,head)
+ 
+# save the training and testing sets as data frames
+training <- splits$trainset
+testing <- splits$testset
+net01 <- neuralnet(CurrentEnroll ~ as.numeric(Status) + SNum + as.integer(Time2) + Days2, training, hidden=10, stepmax = )
+
+
+## SOM
+library(kohonen)
+d01m <- as.numeric(as.matrix(d01))
+d01m <- na.omit(d01m)
+som01 <- som(d01m) 
+
+```
+
+
+SEM
+-------------
+I would expect that there is a specific correlation between courses that are:
+1. Required for the major
+2. Are at the main campus
+3. Fullfill multiple requirements (QI, DV, etc), and 
+4. Are taught by great teachers
+
+For this analysis we can use a structural equation model to test not only the effect sizes of these variables, but competing ideas of directionality.
+
+```{r sem, echo=FALSE}
+library(lavaan)
+library(semPlot)
+
+semMod01 <- '# Path Model
+             CurrentEnroll ~ SNum + Status + Time2 + Attrib + CNum '
+fitsem01 <- lavaan(semMod01, data=d01, model.type="sem")
+
+semPaths(fitsem01,"mod", whatLabels= "est", layout="tree2", intercepts=FALSE, sizeLat=6, sizeMan=3, edge.color="black", edge.label.cex=.6, egde.label.color="#0000000", edge.size=3, title=TRUE)
+    title("SEM Model 1", line=3)
+```
+
+HLM
+--------
+Another way to look at this data would be through a hierarchical model, looking at how overall enrollment in the department effect the different classes.
+
+```{r hlm, echo=FALSE}
+library(lme4)
+
+hlm01 <- lmer(V9 ~ V4 + V5 + V2 + (1|V1), d01)
+
+
+coefplot(hlm01)
+```
+
+
+
+Questions that have been asked
+----------------
+- If we offer more classes/sections are we competing for the same students?
+```{r totenrollment, echo=FALSE}
+summary(d01)
+# Sum enrollment by semester and get the total number of courses offered
+d02 <- d01 %.%
+  group_by(Semester, Year) %.%
+  summarise(total = sum(CurrentEnroll), 
+            count = n(CNum)) %.%
+  arrange(desc(Year, -Semester))
+
+# Create lag and lead variables
+library(DataCombine)
+d02 <- slide(d02, Var="total", NewVar = "LagSem", slideBy=-2)
+d02 <- slide(d02, Var="total", NewVar = "LeadSem", slideBy=2)
+
+d02$velocity <- (d02$LeadSem - d02$LagSem) / 2
+
+sp02 <- ggplot(d02, aes(total, velocity))
+p2 <- sp02 + geom_point() + labs(title="Course Enrollment by Difference 1 year later", x="Enrollment", y="Change in Enrollment") + geom_abline(intercept=0, slope=0) + stat_smooth()
+p2
+
+s <- ggplot(d02, aes(x=count, y=total))
+s + geom_point(aes(colour = Year, alpha=.4)) + labs(title="...") + stat_smooth()
+
+s <- ggplot(d02, aes(total, fill=Year))
+s + geom_bar(position = "dodge") 
+
+lm01 <- lm(velocity ~ poly(total, 3) + count, d02)
+m <- polyroot(lm01$coefficients)
+
+library(grid)
+sp05 <- ggplot(d02, aes(total, count))
+sp05+geom_segment(aes(xend=total+velocity, yend=count+velocity),arrow=arrow(length=unit(.1,"cm"))) + labs(title="Change in Semester Enrollment by Number of Courses")
+```
+
+```{r competing courses, echo=FALSE}
+#Collapse data for total enrollment and number of offered classes each semester
+d02 <- d01 %.%
+  group_by(Semester,Year) %.%
+  summarise(total = sum(CurrentEnroll), count = n(CNum)) %.%
+  arrange(desc(Year, -Semester))
+d02$ref <- (as.integer(d02$Semester)*0.1)+d02$Year # generate combined year_semester variable
+
+ols <- lm(total ~ count + ref, d02) # nothing significant
+ols1 <- lm(total ~ count, d02) # nothing significant
+library(lme4)
+hlm <- lmer(total ~ count + (1|Year), d02) # nothing significant
+
+
+# Reformat data for Random Forest Analysis
+d03 <- d01 %.%
+  group_by(Semester,Year, CNum) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countC = n(CNum),
+            LD = mean(LowerDiv)) %.%
+  arrange(desc(Year, -Semester))
+
+ols2 <- lm(total ~ countC + LD, d03)
+```
+
+A basic regression with total number of students as the D.V. and the number of courses as the I.V. doesn't have any significant effects, not does it fit the data bery well with an r<sub>2</sub> value of ```r summary(ols1)$r.squared ```. Controling for year doesn't seem to help either. 
+
+However, if we analyze the number of students in a course based on the number of sections that are offered, and control for the course being lower division (because SOC 1010 throws everything off) then we get a possitive correlation and an r<sub>2</sub> of ```r summary(ols2)$r.squared ```
+
+
+```{r Regression Table, echo=FALSE}
+kable(summary(ols2))
+```
+
+
+```{r rf1, echo=FALSE}
+library(randomForest)
+rf01 <- randomForest(total ~ ., data=d03, ntree=100, mtry=3) # Remove only duplicate fields / Other models were tried but this one has the best results
+varImpPlot(rf01)
+rf01
+
+d04 <- d03[which(d03$CNum<1030),]
+rf02 <- randomForest(total ~ ., data=d04, ntree=100, mtry=3)
+varImpPlot(rf02)
+ols3 <- lm(total ~ countC, d04)
+summary(ols3)
+
+```
+
+
+
+- What Does Enrollment look like without branches
+
+```{r q2, echo=FALSE}
+d05 <- d01 %.%
+  group_by(Semester,Year, SNum) %.%
+  summarise(total = sum(CurrentEnroll), 
+            countC = n(CNum),
+            LD = mean(LowerDiv)) %.%
+  arrange(desc(Year, -Semester))
+
+d05.1 <- d05[which(d05$SNum<9 |d05$SNum==90 ),]
+sum(d05.1$total)
+xtabs(total~ Year + Semester, d05.1)
+d05.2 <- d05[which(d05$SNum>9 & d05$SNum!=90 ),]
+sum(d05.2$total)
+xtabs(total~ Year + Semester, d05.2)
+
+```
+
+- What if we offered more afternoon classes
+```{r q3, echo=FALSE}
+p.values.lmer <- function(x) {
+  summary.model <- summary(x)
+  data.lmer <- data.frame(model.matrix(x))
+  names(data.lmer) <- names(fixef(x))
+  names(data.lmer) <- gsub(pattern=":", x=names(data.lmer), replacement=".", fixed=T)
+  names(data.lmer) <- ifelse(names(data.lmer)=="(Intercept)", "Intercept", names(data.lmer))
+  string.call <- strsplit(x=as.character(x@call), split=" + (", fixed=T)
+  var.dep <- unlist(strsplit(x=unlist(string.call)[2], " ~ ", fixed=T))[1]
+  vars.fixef <- names(data.lmer)
+  formula.ranef <- paste("+ (", string.call[[2]][-1], sep="")
+  formula.ranef <- paste(formula.ranef, collapse=" ")
+  formula.full <- as.formula(paste(var.dep, "~ -1 +", paste(vars.fixef, collapse=" + "), 
+                  formula.ranef))
+  data.ranef <- data.frame(x@frame[, 
+                which(names(x@frame) %in% names(ranef(x)))])
+  names(data.ranef) <- names(ranef(x))
+  data.lmer <- data.frame(x@frame[, 1], data.lmer, data.ranef)
+  names(data.lmer)[1] <- var.dep
+  out.full <- lmer(formula.full, data=data.lmer, REML=F)
+  p.value.LRT <- vector(length=length(vars.fixef))
+  for(i in 1:length(vars.fixef)) {
+    formula.reduced <- as.formula(paste(var.dep, "~ -1 +", paste(vars.fixef[-i], 
+                       collapse=" + "), formula.ranef))
+    out.reduced <- lmer(formula.reduced, data=data.lmer, REML=F)
+    print(paste("Reduced by:", vars.fixef[i]))
+    print(out.LRT <- data.frame(anova(out.full, out.reduced)))
+    p.value.LRT[i] <- round(out.LRT[2, 7], 3)
+  }
+  summary.model@coefs <- cbind(summary.model@coefs, p.value.LRT)
+  summary.model@methTitle <- c("\n", summary.model@methTitle, 
+                           "\n(p-values from comparing nested models fit by maximum likelihood)")
+  print(summary.model)
+}
+
+hlm2 <- lmer(CurrentEnroll ~ LowerDiv + Req + Location + Time2 + (1|Time2), d01)
+p.values.lmer(hlm2)
+```
+
+
+- Why did enrollment drop in 2012
+- Are there too many classes
+  - see above
+- Does cross-listing increase enrollment
+```{r w6, echo=FALSE}
+d01.1 <- d01
+d01.1[is.na(d01.1)] <- 0
+
+
+ols4 <- lm(CurrentEnroll ~ LowerDiv + Req + Time2 + as.factor(Year) + Location, data=d01.1)
+ols5 <- lm(CurrentEnroll ~ LowerDiv + Req + Time2 + as.factor(Year) + Location + CrossList, data=d01.1)
+ols6 <- lm(CurrentEnroll ~ LowerDiv + Req + Time2 + as.factor(Year) + Location + CrossList + Area + Status + NumAttributes, data=d01.1)
+
+rf02 <- randomForest(CurrentEnroll ~ LowerDiv + Req + Time2 + as.factor(Year) + Location + CrossList + Area + Status + NumAttributes, data=d01.1, ntree=100, mtry=3)
+```
+
+
+- How do attributes affect enrollment
+- What about our classes that are required for other majors
