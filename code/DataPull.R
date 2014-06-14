@@ -8,7 +8,7 @@ library(XML)
 #090 = online
 
 # Get a list of courses offered in a given semester
-courseEnroll <- function(listurl){
+courseEnroll <- function(listurl, term){
   cDoc <- htmlParse(listurl)
   courseLsTbl <- readHTMLTable(cDoc, as.data.frame=T, which=1)
   
@@ -116,9 +116,10 @@ courseStats <- function(corurl){ #parse the document for R representation:
   }
 }
 
-courseOffered <- function(offurl){
+# Function to get all of the courses offered in a given semester
+courseOffered <- function(offurl, term, dept){
   ofurl <- htmlParse(offurl)
-  if(term==1004){
+  if(term==1004 | dept %in% c("PSYCH", "GEOGR", "POL S", "ANTHR")){
     offLsTbl <- readHTMLTable(ofurl, as.data.frame=T, which=1)
   }else{
     offLsTbl <- readHTMLTable(ofurl, as.data.frame=T, which=5, stringsAsFactors = TRUE, encoding="bytes")
@@ -148,9 +149,9 @@ courseOffered <- function(offurl){
 }
 
 # Note acs only goes back to 2000, term 1004
-#subject <- c("FCS", "SOC", "PSY", "GEOG", "ANTH", "POLS", "ECON")
 
-genData <- function(subject, cterm = "1158"){ # HAving a scoping issue with term variable
+# Function to generate urls to to feed to other functions and write csv files
+genData <- function(subject, cterm = "1154"){
   s <- toupper(subject)
   cterm <- as.character(cterm)
   
@@ -164,33 +165,60 @@ genData <- function(subject, cterm = "1158"){ # HAving a scoping issue with term
     for(j in seq(0,9,1)){
       for(k in seq(4,8,4)){ # k is for the semester 4==Spring, 8==Fall, 6==Summer (but I'm not doing summer)
         term <- paste(c(1,i,j,k), collapse="") # concatenate loop variables into a term
-        
+        #print(term)
         #Generate the url for the specific term
-        urlgen1 <- paste(c("http://www.acs.utah.edu/uofu/stu/scheduling/crse-info?term=",term, 
-                           "&subj=", s),collapse="")
         
-        # Run function to pull information on enrollment numbers
-        temp1 <- courseEnroll(urlgen1)
+        # Generate exception for 2005 name changes
+        if(term<=1056 && s=="PSY"){
+          s <- "PSYCH"
+        } else {
+          if(term>1056 && s=="PSYCH"){
+            s <- "PSY"
+        }}
+        if(term<=1056 && s=="ANTH"){
+          s <- "ANTHR"
+        }else {
+          if(term>1056 && s=="ANTHR"){
+            s <- "ANTH"
+          }}
+        if(term<=1056 && s=="GEOG"){
+          s <- "GEOGR"
+        }else {
+          if(term>1056 && s=="GEOGR"){
+            s <- "GEOG"
+          }}
+        if(term<=1056 && s=="POLS"){
+          s <- "POL S"
+        }else {
+          if(term>1056 && s=="POL S"){
+            s <- "POLS"
+          }}
         
-        
-        
-        ########################################### Get Number Registered
-        #Genereate url to get the schedule for a term
         if(term < cterm){
+          urlgen1 <- paste(c("http://www.acs.utah.edu/uofu/stu/scheduling/crse-info?term=",term, 
+                             "&subj=", s),collapse="")
+          
+          # Run function to pull information on enrollment numbers
+          temp1 <- courseEnroll(urlgen1, term)
+          
+          
+          
+          ########################################### Get Number Registered
+          #Genereate url to get the schedule for a term
+          
           urlgen2 <- paste(c("http://www.acs.utah.edu/uofu/stu/scheduling?term=",term,
                              "&dept=", s, "&classtype=g"),collapse="")
           
-          temp2 <- courseOffered(urlgen2)       
-          
+          temp2 <- courseOffered(urlgen2, term, s)       
           
           # Write out the table resulting from the above function and append each new term to the file, export as .csv
           
           
           write.table(temp1, file=ename, append=TRUE, col.names=FALSE, sep=",")
           write.table(temp2, file=catname, append=TRUE, col.names=FALSE, sep=",")
-          print(paste(c("Writing tables for term ", term), collapse=""))
-        }
-        
+          print(paste(c("Writing tables for term: ", term," in the ",s, " department" ), collapse=""))
+          
+        }# end if
       } # end for k
     }# end for j
     
@@ -198,7 +226,7 @@ genData <- function(subject, cterm = "1158"){ # HAving a scoping issue with term
   # Note OBIA only goes back to 2004 term 1044
   
   
-  
+  print(paste(c("Begin Writing demographics for classes in the ", s, " department"), collapse=""))
   t <- read.csv(ename, header=FALSE)
   t01 <- t[which(t$V8>0 & t$V12>=1044),]
   
@@ -230,8 +258,15 @@ genData <- function(subject, cterm = "1158"){ # HAving a scoping issue with term
       # Write out the table resulting from the above function and append each new term to the file, export as .csv
       
       write.table(temp3, file=sname, append=TRUE, col.names=FALSE, row.names=FALSE, sep=",")
-      print(paste(c("Writing Stats for term ", t01[n,"V12"], " course ", t01[n,"V4"]), collapse=""))
+      #print(paste(c("Writing Stats for term ", t01[n,"V12"], " course ", t01[n,"V4"]), collapse=""))
     }
   }
+  print(paste(c("Finished data collection for the ", s, " department."), collapse=""))
 }
 
+# List of department codes in CSBS
+CSBS <- list("FCS", "SOC", "PSY", "GEOG", "ANTH", "POLS", "ECON")
+
+for(x in seq(3,length(CSBS),1)){
+  genData(CSBS[[x]])
+}
